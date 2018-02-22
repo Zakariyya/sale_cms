@@ -1,0 +1,94 @@
+package org.slsale.controller.user;
+
+import javax.annotation.Resource;
+
+import net.sf.json.JSONObject;
+
+import org.apache.log4j.Logger;
+import org.slsale.pojo.User;
+import org.slsale.service.user.UserService;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class UserController extends BaseController {
+	
+	public Logger logger = Logger.getLogger(UserController.class);
+	
+	@Resource
+	private UserService userService;
+	
+	@RequestMapping("/backend/modifyPwd.html")
+	@ResponseBody
+	public Object modifyPwd(@RequestParam String userJson){
+		logger.debug("modifypwd==================>");
+		System.out.println("------------------------------------------------------modifypwd");
+		//获取当前用户
+		User currentUser = this.getCurrentUser();
+		
+		if(userJson == null || userJson == ""){
+			return "nodata"; //无数据处理
+		}else{
+			JSONObject userObject = JSONObject.fromObject(userJson);//前台js传来的user对象的json格式
+			User user = (User) JSONObject.toBean(userObject, User.class);//转成user对象
+			user.setId(currentUser.getId());
+			user.setLoginCode(currentUser.getLoginCode());
+			try {
+				User loginUser = userService.getLoginUser(user);
+				if(loginUser != null){
+					//将新密码set到现有的user中
+					/**
+					 * 小细节：
+					 * password2：是支付密码，但在这里前台用来储存“新的登录密码”
+					 * 所以，password2的资源是被“污染”了的。
+					 * ====================================
+					 * 注意：user.setPassword2(null);
+					 * 设置为null之后，在UserMapper.xml的modifyUser方法中
+					 *-----------------------------
+					 * 有<if test="password2 != null">password2= #{password2},</if>
+					 *-----------------------------
+					 * 因此，不会对password2进行任何数据操作
+					 */
+					user.setPassword(user.getPassword2());
+					user.setPassword2(null);//因为设定值为null，并password2并不会被重写
+					userService.modifyUser(user);
+				}else{
+					return "oldpasswrong";
+				}
+			} catch (Exception e) {
+				// TODO: handle exception
+				return "failed";
+			}
+		}
+		return "success";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

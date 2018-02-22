@@ -1,0 +1,555 @@
+- (2992 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:112) Initializing new StandardServletEnvironment
+- (3002 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [servletConfigInitParams] PropertySource with lowest search precedence
+- (3003 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [servletContextInitParams] PropertySource with lowest search precedence
+- (3004 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [jndiProperties] PropertySource with lowest search precedence
+- (3004 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemProperties] PropertySource with lowest search precedence
+- (3004 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemEnvironment] PropertySource with lowest search precedence
+- (3005 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:116) Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+- (3006 ms) - 2017-5-26 10:35:45[DEBUG](GenericFilterBean.java:172) Initializing filter 'encodingFilter'
+- (3018 ms) - 2017-5-26 10:35:45[DEBUG](GenericFilterBean.java:197) Filter 'encodingFilter' configured successfully
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](HttpServletBean.java:118) Initializing servlet 'spring'
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:112) Initializing new StandardServletEnvironment
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [servletConfigInitParams] PropertySource with lowest search precedence
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [servletContextInitParams] PropertySource with lowest search precedence
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [jndiProperties] PropertySource with lowest search precedence
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemProperties] PropertySource with lowest search precedence
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemEnvironment] PropertySource with lowest search precedence
+- (3047 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:116) Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+- (3071 ms) - 2017-5-26 10:35:45[ INFO](FrameworkServlet.java:454) FrameworkServlet 'spring': initialization started
+- (3072 ms) - 2017-5-26 10:35:45[DEBUG](FrameworkServlet.java:582) Servlet with name 'spring' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Fri May 26 10:35:42 CST 2017]; root of context hierarchy]
+- (3073 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+- (3073 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.active' in [servletContextInitParams]
+- (3073 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.active' in [jndiProperties]
+- (3073 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+- (3074 ms) - 2017-5-26 10:35:45[DEBUG](JndiLocatorSupport.java:101) Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].
+- (3074 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [spring.profiles.active]
+- (3074 ms) - 2017-5-26 10:35:45[DEBUG](JndiPropertySource.java:87) JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].. Returning null.
+- (3074 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.active' in [systemProperties]
+- (3074 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.active' in [systemEnvironment]
+- (3075 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:94) Could not find key 'spring.profiles.active' in any property source. Returning [null]
+- (3075 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+- (3075 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [servletContextInitParams]
+- (3075 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [jndiProperties]
+- (3075 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+- (3076 ms) - 2017-5-26 10:35:45[DEBUG](JndiLocatorSupport.java:101) Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+- (3076 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [spring.profiles.default]
+- (3076 ms) - 2017-5-26 10:35:45[DEBUG](JndiPropertySource.java:87) JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+- (3076 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [systemProperties]
+- (3076 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [systemEnvironment]
+- (3077 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:94) Could not find key 'spring.profiles.default' in any property source. Returning [null]
+- (3077 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+- (3078 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [servletContextInitParams]
+- (3078 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [jndiProperties]
+- (3079 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+- (3079 ms) - 2017-5-26 10:35:45[DEBUG](JndiLocatorSupport.java:101) Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+- (3079 ms) - 2017-5-26 10:35:45[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [spring.profiles.default]
+- (3080 ms) - 2017-5-26 10:35:45[DEBUG](JndiPropertySource.java:87) JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+- (3080 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [systemProperties]
+- (3080 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.profiles.default' in [systemEnvironment]
+- (3080 ms) - 2017-5-26 10:35:45[DEBUG](PropertySourcesPropertyResolver.java:94) Could not find key 'spring.profiles.default' in any property source. Returning [null]
+- (3085 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:172) Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+- (3086 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:172) Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+- (3087 ms) - 2017-5-26 10:35:45[ INFO](AbstractApplicationContext.java:510) Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Fri May 26 10:35:45 CST 2017]; parent: Root WebApplicationContext
+- (3090 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:112) Initializing new StandardEnvironment
+- (3091 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemProperties] PropertySource with lowest search precedence
+- (3091 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemEnvironment] PropertySource with lowest search precedence
+- (3091 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:116) Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+- (3091 ms) - 2017-5-26 10:35:45[ INFO](XmlBeanDefinitionReader.java:315) Loading XML bean definitions from class path resource [spring-servlet.xml]
+- (3103 ms) - 2017-5-26 10:35:45[DEBUG](DefaultDocumentLoader.java:72) Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+- (3104 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:140) Loading schema mappings from [META-INF/spring.schemas]
+- (3107 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:146) Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+- (3108 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:118) Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+- (3130 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:118) Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.2.xsd
+- (3152 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:118) Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+- (3159 ms) - 2017-5-26 10:35:45[DEBUG](PluggableSchemaResolver.java:118) Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+- (3164 ms) - 2017-5-26 10:35:45[DEBUG](DefaultBeanDefinitionDocumentReader.java:106) Loading bean definitions
+- (3176 ms) - 2017-5-26 10:35:45[DEBUG](DefaultNamespaceHandlerResolver.java:156) Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+- (3245 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:112) Initializing new StandardEnvironment
+- (3246 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemProperties] PropertySource with lowest search precedence
+- (3247 ms) - 2017-5-26 10:35:45[DEBUG](MutablePropertySources.java:107) Adding [systemEnvironment] PropertySource with lowest search precedence
+- (3247 ms) - 2017-5-26 10:35:45[DEBUG](AbstractEnvironment.java:116) Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+- (3252 ms) - 2017-5-26 10:35:45[ INFO](ClassPathScanningCandidateComponentProvider.java:231) JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+- (3254 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:550) Looking for matching resources in directory tree [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale]
+- (3255 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3255 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\common] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3256 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3256 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller\user] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3257 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\dao] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3257 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\dao\function] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3258 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\dao\user] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3259 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3260 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3260 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\function] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3260 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:612) Searching directory [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\user] for files matching pattern [D:/Project/Myeclipse/SLSaleSystem/WebRoot/WEB-INF/classes/org/slsale/**/*.class]
+- (3262 ms) - 2017-5-26 10:35:45[DEBUG](PathMatchingResourcePatternResolver.java:351) Resolved location pattern [classpath*:org/slsale/**/*.class] to resources [file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\common\Constants.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\common\RedisAPI.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller\user\BaseController$1.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller\user\BaseController.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller\user\LoginController.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\dao\function\FunctionMapper.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\dao\user\UserMapper.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\Authority.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\Base.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\Function.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\Menu.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\Role.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\pojo\User.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\function\FunctionService.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\function\FunctionServiceImpl.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\user\UserService.class], file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\user\UserServiceImpl.class]]
+- (3275 ms) - 2017-5-26 10:35:45[DEBUG](ClassPathScanningCandidateComponentProvider.java:273) Identified candidate component class: file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\controller\user\LoginController.class]
+- (3284 ms) - 2017-5-26 10:35:45[DEBUG](ClassPathScanningCandidateComponentProvider.java:273) Identified candidate component class: file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\function\FunctionServiceImpl.class]
+- (3285 ms) - 2017-5-26 10:35:45[DEBUG](ClassPathScanningCandidateComponentProvider.java:273) Identified candidate component class: file [D:\Project\Myeclipse\SLSaleSystem\WebRoot\WEB-INF\classes\org\slsale\service\user\UserServiceImpl.class]
+- (3286 ms) - 2017-5-26 10:35:45[DEBUG](BeanDefinitionParserDelegate.java:500) Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+- (3290 ms) - 2017-5-26 10:35:45[DEBUG](AbstractBeanDefinitionReader.java:216) Loaded 22 bean definitions from location pattern [classpath:spring-servlet.xml]
+- (3290 ms) - 2017-5-26 10:35:45[DEBUG](AbstractApplicationContext.java:540) Bean factory for WebApplicationContext for namespace 'spring-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@3fbfdc: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,loginController,functionServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,multiPartResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@38ffab
+- (3307 ms) - 2017-5-26 10:35:45[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+- (3307 ms) - 2017-5-26 10:35:45[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+- (3307 ms) - 2017-5-26 10:35:45[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+- (3308 ms) - 2017-5-26 10:35:45[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+- (3377 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+- (3378 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+- (3380 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+- (3380 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+- (3381 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+- (3381 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+- (3381 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+- (3381 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+- (3382 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+- (3382 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+- (3383 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+- (3383 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+- (3384 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+- (3384 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+- (3384 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+- (3384 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+- (3385 ms) - 2017-5-26 10:35:46[DEBUG](AbstractApplicationContext.java:807) Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@128bc73]
+- (3385 ms) - 2017-5-26 10:35:46[DEBUG](AbstractApplicationContext.java:831) Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@16c2ff3]
+- (3385 ms) - 2017-5-26 10:35:46[DEBUG](UiApplicationContextUtils.java:85) Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@1c0026e]
+- (3388 ms) - 2017-5-26 10:35:46[ INFO](DefaultListableBeanFactory.java:596) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fbfdc: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,loginController,functionServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,multiPartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@38ffab
+- (3388 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+- (3389 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'mvcContentNegotiationManager'
+- (3389 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+- (3414 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+- (3417 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'mvcContentNegotiationManager'
+- (3418 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+- (3418 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+- (3425 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+- (3458 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+- (3461 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (3462 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (3464 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)'
+- (3467 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3467 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3470 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+- (3478 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3505 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3515 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)'
+- (3517 ms) - 2017-5-26 10:35:46[DEBUG](BeanUtils.java:443) No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+- (3518 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+- (3522 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (3523 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+- (3523 ms) - 2017-5-26 10:35:46[DEBUG](AbstractHandlerMethodMapping.java:99) Looking for request mappings in application context: WebApplicationContext for namespace 'spring-servlet': startup date [Fri May 26 10:35:45 CST 2017]; parent: Root WebApplicationContext
+- (3545 ms) - 2017-5-26 10:35:46[ INFO](AbstractHandlerMethodMapping.java:179) Mapped "{[/main.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)
+- (3546 ms) - 2017-5-26 10:35:46[ INFO](AbstractHandlerMethodMapping.java:179) Mapped "{[/login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object org.slsale.controller.user.LoginController.login(javax.servlet.http.HttpSession,java.lang.String)
+- (3546 ms) - 2017-5-26 10:35:46[ INFO](AbstractHandlerMethodMapping.java:179) Mapped "{[/logout.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.slsale.controller.user.LoginController.logout(javax.servlet.http.HttpSession)
+- (3546 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+- (3546 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3546 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+- (3546 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+- (3765 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+- (3788 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+- (3789 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#1'
+- (3800 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+- (3801 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#1'
+- (3801 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#2'
+- (3813 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#2'
+- (3813 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#3'
+- (3824 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#3'
+- (3824 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#4'
+- (3837 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#4'
+- (3837 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#5'
+- (3852 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#5'
+- (3852 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#6'
+- (3866 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#6'
+- (3866 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#7'
+- (3905 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#7'
+- (3906 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+- (3954 ms) - 2017-5-26 10:35:46[DEBUG](RequestMappingHandlerAdapter.java:618) Looking for controller advice: WebApplicationContext for namespace 'spring-servlet': startup date [Fri May 26 10:35:45 CST 2017]; parent: Root WebApplicationContext
+- (3957 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+- (3957 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (3957 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+- (3957 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+- (3968 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+- (3981 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+- (3982 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#8'
+- (3982 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#8'
+- (3982 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#9'
+- (3985 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#9'
+- (3985 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#10'
+- (3986 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#10'
+- (3986 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#11'
+- (3986 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#11'
+- (3987 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#12'
+- (3990 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#12'
+- (3990 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean '(inner bean)#13'
+- (3991 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean '(inner bean)#13'
+- (3991 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+- (3992 ms) - 2017-5-26 10:35:46[DEBUG](ExceptionHandlerExceptionResolver.java:284) Looking for exception mappings: WebApplicationContext for namespace 'spring-servlet': startup date [Fri May 26 10:35:45 CST 2017]; parent: Root WebApplicationContext
+- (3992 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+- (3993 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+- (3993 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+- (3993 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+- (4004 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+- (4005 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+- (4005 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+- (4005 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+- (4013 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+- (4014 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+- (4014 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+- (4014 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+- (4033 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (4034 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:71) Looking for URL mappings in application context: WebApplicationContext for namespace 'spring-servlet': startup date [Fri May 26 10:35:45 CST 2017]; parent: Root WebApplicationContext
+- (4034 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+- (4034 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+- (4034 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+- (4035 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'loginController': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'functionServiceImpl': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'userServiceImpl': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+- (4036 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'multiPartResolver': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'environment': no URL paths identified
+- (4037 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'systemProperties': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'systemEnvironment': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'servletConfig': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'messageSource': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractDetectingUrlHandlerMapping.java:86) Rejected bean name 'applicationEventMulticaster': no URL paths identified
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+- (4038 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+- (4039 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+- (4045 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+- (4045 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+- (4045 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+- (4046 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+- (4051 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+- (4051 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'loginController'
+- (4051 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'loginController'
+- (4057 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:71) Registered injected element on class [org.slsale.controller.user.LoginController]: ResourceElement for private org.slsale.service.user.UserService org.slsale.controller.user.LoginController.userService
+- (4058 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:71) Registered injected element on class [org.slsale.controller.user.LoginController]: ResourceElement for private org.slsale.service.function.FunctionService org.slsale.controller.user.LoginController.functionService
+- (4058 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:71) Registered injected element on class [org.slsale.controller.user.LoginController]: ResourceElement for private org.slsale.common.RedisAPI org.slsale.controller.user.LoginController.redisAPI
+- (4059 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'loginController' to allow for resolving potential circular references
+- (4151 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:85) Processing injected method of bean 'loginController': ResourceElement for private org.slsale.service.user.UserService org.slsale.controller.user.LoginController.userService
+- (4153 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'userServiceImpl'
+- (4153 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'userServiceImpl'
+- (4153 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:71) Registered injected element on class [org.slsale.service.user.UserServiceImpl]: ResourceElement for private org.slsale.dao.user.UserMapper org.slsale.service.user.UserServiceImpl.userMapper
+- (4154 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+- (4158 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:85) Processing injected method of bean 'userServiceImpl': ResourceElement for private org.slsale.dao.user.UserMapper org.slsale.service.user.UserServiceImpl.userMapper
+- (4158 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userMapper'
+- (4161 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+- (4161 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+- (4180 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'userServiceImpl'
+- (4180 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:85) Processing injected method of bean 'loginController': ResourceElement for private org.slsale.service.function.FunctionService org.slsale.controller.user.LoginController.functionService
+- (4181 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'functionServiceImpl'
+- (4181 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'functionServiceImpl'
+- (4182 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:71) Registered injected element on class [org.slsale.service.function.FunctionServiceImpl]: ResourceElement for private org.slsale.dao.function.FunctionMapper org.slsale.service.function.FunctionServiceImpl.functionMapper
+- (4182 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'functionServiceImpl' to allow for resolving potential circular references
+- (4187 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:85) Processing injected method of bean 'functionServiceImpl': ResourceElement for private org.slsale.dao.function.FunctionMapper org.slsale.service.function.FunctionServiceImpl.functionMapper
+- (4187 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'functionMapper'
+- (4188 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+- (4188 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+- (4190 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'functionServiceImpl'
+- (4190 ms) - 2017-5-26 10:35:46[DEBUG](InjectionMetadata.java:85) Processing injected method of bean 'loginController': ResourceElement for private org.slsale.common.RedisAPI org.slsale.controller.user.LoginController.redisAPI
+- (4190 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'redisAPI'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'loginController'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'functionServiceImpl'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userServiceImpl'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+- (4191 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+- (4192 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+- (4201 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+- (4225 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+- (4225 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4225 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4226 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+- (4241 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4241 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4241 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+- (4241 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+- (4242 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+- (4265 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+- (4266 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4266 ms) - 2017-5-26 10:35:46[ INFO](AbstractUrlHandlerMapping.java:315) Mapped URL path [/statics/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+- (4266 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+- (4266 ms) - 2017-5-26 10:35:46[DEBUG](DefaultSingletonBeanRegistry.java:215) Creating shared instance of singleton bean 'multiPartResolver'
+- (4266 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'multiPartResolver'
+- (4283 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:506) Eagerly caching bean 'multiPartResolver' to allow for resolving potential circular references
+- (4292 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'multiPartResolver'
+- (4292 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+- (4293 ms) - 2017-5-26 10:35:46[DEBUG](AbstractApplicationContext.java:858) Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@40a746]
+- (4293 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'lifecycleProcessor'
+- (4294 ms) - 2017-5-26 10:35:46[DEBUG](DispatcherServlet.java:467) Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+- (4296 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+- (4301 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+- (4302 ms) - 2017-5-26 10:35:46[DEBUG](DispatcherServlet.java:489) Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@9188c4]
+- (4304 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+- (4313 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+- (4314 ms) - 2017-5-26 10:35:46[DEBUG](DispatcherServlet.java:511) Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1d2c63]
+- (4314 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+- (4314 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+- (4314 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+- (4315 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+- (4315 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+- (4315 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+- (4316 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+- (4316 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+- (4316 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+- (4317 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+- (4323 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+- (4324 ms) - 2017-5-26 10:35:46[DEBUG](DispatcherServlet.java:649) Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1c4e62f]
+- (4324 ms) - 2017-5-26 10:35:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+- (4330 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:432) Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+- (4341 ms) - 2017-5-26 10:35:46[DEBUG](AbstractAutowireCapableBeanFactory.java:460) Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+- (4341 ms) - 2017-5-26 10:35:46[DEBUG](DispatcherServlet.java:711) Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@1b3f63d]
+- (4341 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+- (4341 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+- (4341 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+- (4342 ms) - 2017-5-26 10:35:46[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+- (4342 ms) - 2017-5-26 10:35:46[DEBUG](JndiLocatorSupport.java:101) Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+- (4342 ms) - 2017-5-26 10:35:46[DEBUG](JndiTemplate.java:150) Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+- (4342 ms) - 2017-5-26 10:35:46[DEBUG](JndiPropertySource.java:87) JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+- (4342 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+- (4343 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:72) Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+- (4343 ms) - 2017-5-26 10:35:46[DEBUG](PropertySourcesPropertyResolver.java:94) Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+- (4344 ms) - 2017-5-26 10:35:46[DEBUG](FrameworkServlet.java:533) Published WebApplicationContext of servlet 'spring' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.spring]
+- (4345 ms) - 2017-5-26 10:35:46[ INFO](FrameworkServlet.java:473) FrameworkServlet 'spring': initialization completed in 1273 ms
+- (4345 ms) - 2017-5-26 10:35:46[DEBUG](HttpServletBean.java:139) Servlet 'spring' configured successfully
+- (8924 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (8926 ms) - 2017-5-26 10:35:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (8932 ms) - 2017-5-26 10:35:51[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (8933 ms) - 2017-5-26 10:35:51[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (8934 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (8983 ms) - 2017-5-26 10:35:51[DEBUG](LoginController.java:56) main==============
+- (8995 ms) - 2017-5-26 10:35:51[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'redirect:/'
+- (8995 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/'; URL [/]] in DispatcherServlet with name 'spring'
+- (8998 ms) - 2017-5-26 10:35:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (9001 ms) - 2017-5-26 10:35:51[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'sqlSessionFactory'
+- (9300 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/charisma.js]
+- (9301 ms) - 2017-5-26 10:35:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/charisma.js
+- (9302 ms) - 2017-5-26 10:35:51[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/charisma.js]
+- (9303 ms) - 2017-5-26 10:35:51[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/charisma.js] are [/statics/**]
+- (9305 ms) - 2017-5-26 10:35:51[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/charisma.js] are {}
+- (9307 ms) - 2017-5-26 10:35:51[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/charisma.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@c241f8] and 1 interceptor
+- (9309 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/charisma.js] is: -1
+- (9310 ms) - 2017-5-26 10:35:51[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/charisma.js] against base location: ServletContext resource [/statics/]
+- (9310 ms) - 2017-5-26 10:35:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/charisma.js]
+- (9311 ms) - 2017-5-26 10:35:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/charisma.js]
+- (9325 ms) - 2017-5-26 10:35:51[DEBUG](ResourceHttpRequestHandler.java:135) Resource not modified - returning 304
+- (9326 ms) - 2017-5-26 10:35:51[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (9326 ms) - 2017-5-26 10:35:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (14697 ms) - 2017-5-26 10:35:57[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/login.html]
+- (14698 ms) - 2017-5-26 10:35:57[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /login.html
+- (14698 ms) - 2017-5-26 10:35:57[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.LoginController.login(javax.servlet.http.HttpSession,java.lang.String)]
+- (14698 ms) - 2017-5-26 10:35:57[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (14941 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: false
+- (14941 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Boolean' value 'false' to type 'Boolean'
+- (14941 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Boolean
+- (14941 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Byte'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Byte value '0'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value:  
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Character' value ' ' to type 'Character'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Character
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Double'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Double value '0.0'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Float'
+- (14951 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Float value '0.0'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Integer'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Integer
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Long'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Long value '0'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Short'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Short value '0'
+- (14961 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0.0
+- (14971 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+- (14972 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a BigDecimal
+- (14975 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14976 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'BigInteger' value '0' to type 'BigInteger'
+- (14976 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a BigInteger
+- (14976 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: false
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Boolean' value 'false' to type 'Boolean'
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Boolean
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Byte'
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Byte value '0'
+- (14977 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value:  
+- (14978 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Character' value ' ' to type 'Character'
+- (14978 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Character
+- (14978 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14979 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Double'
+- (14979 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Double value '0.0'
+- (14979 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14979 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Float'
+- (14980 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Float value '0.0'
+- (14980 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14981 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Integer'
+- (14981 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Integer
+- (14981 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14981 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Long'
+- (14982 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Long value '0'
+- (14982 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 0
+- (14982 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer' value '0' to type 'Short'
+- (14982 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:158)     Converted to Short value '0'
+- (14984 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: 
+- (14984 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'String' value '' to type 'String'
+- (14999 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Z@a2fc13
+- (15000 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'boolean[]' value '[Z@a2fc13' to type 'boolean[]'
+- (15000 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a boolean[]
+- (15001 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [B@535422
+- (15001 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'byte[]' value '[B@535422' to type 'byte[]'
+- (15002 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a byte[]
+- (15002 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [C@b89aea
+- (15002 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'char[]' value '[C@b89aea' to type 'char[]'
+- (15002 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a char[]
+- (15003 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [D@1c28240
+- (15003 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'double[]' value '[D@1c28240' to type 'double[]'
+- (15003 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a double[]
+- (15003 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [F@f542e9
+- (15004 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'float[]' value '[F@f542e9' to type 'float[]'
+- (15004 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a float[]
+- (15004 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [I@1fbd9be
+- (15005 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'int[]' value '[I@1fbd9be' to type 'int[]'
+- (15005 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a int[]
+- (15006 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [J@1948368
+- (15006 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'long[]' value '[J@1948368' to type 'long[]'
+- (15006 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a long[]
+- (15007 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [S@13f48a2
+- (15007 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'short[]' value '[S@13f48a2' to type 'short[]'
+- (15007 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a short[]
+- (15007 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.math.BigDecimal;@1b9ad5a
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@1b9ad5a' to type 'BigDecimal[]'
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a BigDecimal[]
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.math.BigInteger;@123f8cd
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@123f8cd' to type 'BigInteger[]'
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a BigInteger[]
+- (15008 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Boolean;@a375fc
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Boolean[]' value '[Ljava.lang.Boolean;@a375fc' to type 'Boolean[]'
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Boolean[]
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Byte;@1971ab2
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Byte[]' value '[Ljava.lang.Byte;@1971ab2' to type 'Byte[]'
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Byte[]
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Character;@159dd8f
+- (15009 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Character[]' value '[Ljava.lang.Character;@159dd8f' to type 'Character[]'
+- (15010 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Character[]
+- (15010 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Double;@e0e449
+- (15010 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Double[]' value '[Ljava.lang.Double;@e0e449' to type 'Double[]'
+- (15010 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Double[]
+- (15011 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Float;@aba33b
+- (15011 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Float[]' value '[Ljava.lang.Float;@aba33b' to type 'Float[]'
+- (15011 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Float[]
+- (15011 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Integer;@69a918
+- (15012 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Integer[]' value '[Ljava.lang.Integer;@69a918' to type 'Integer[]'
+- (15012 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Integer[]
+- (15012 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Long;@dca156
+- (15013 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Long[]' value '[Ljava.lang.Long;@dca156' to type 'Long[]'
+- (15013 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Long[]
+- (15013 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Short;@e45211
+- (15013 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Short[]' value '[Ljava.lang.Short;@e45211' to type 'Short[]'
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Short[]
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.String;@1c7e1ba
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'String[]' value '[Ljava.lang.String;@1c7e1ba' to type 'String[]'
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a String[]
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.lang.Class;@1b492d7
+- (15014 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Class[]' value '[Ljava.lang.Class;@1b492d7' to type 'Class[]'
+- (15015 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Class[]
+- (15015 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.util.Date;@14987f
+- (15015 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Date[]' value '[Ljava.util.Date;@14987f' to type 'Date[]'
+- (15015 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Date[]
+- (15015 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.util.Calendar;@1cbe7fc
+- (15016 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'Calendar[]' value '[Ljava.util.Calendar;@1cbe7fc' to type 'Calendar[]'
+- (15016 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a Calendar[]
+- (15016 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.io.File;@13305ba
+- (15016 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'java.io.File[]' value '[Ljava.io.File;@13305ba' to type 'java.io.File[]'
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a java.io.File[]
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.sql.Date;@1c44c72
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@1c44c72' to type 'java.sql.Date[]'
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a java.sql.Date[]
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.sql.Time;@12efb4e
+- (15017 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@12efb4e' to type 'java.sql.Time[]'
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a java.sql.Time[]
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.sql.Timestamp;@174ccc5
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@174ccc5' to type 'java.sql.Timestamp[]'
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a java.sql.Timestamp[]
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:336) Setting default value: [Ljava.net.URL;@d91d34
+- (15018 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:127) Converting 'java.net.URL[]' value '[Ljava.net.URL;@d91d34' to type 'java.net.URL[]'
+- (15019 ms) - 2017-5-26 10:35:57[DEBUG](AbstractConverter.java:149)     No conversion required, value is already a java.net.URL[]
+- (15051 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (15064 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76fdaa] was not registered for synchronization because synchronization is not active
+- (15201 ms) - 2017-5-26 10:35:57[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (15202 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (15205 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (15211 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode = ? 
+- (15244 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String)
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76fdaa]
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c07b8] was not registered for synchronization because synchronization is not active
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where loginCode = ? and password = ? 
+- (15335 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String), 123456(String)
+- (15356 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c07b8]
+- (15356 ms) - 2017-5-26 10:35:57[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (15358 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (15359 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fded8c] was not registered for synchronization because synchronization is not active
+- (15365 ms) - 2017-5-26 10:35:57[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (15366 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (15367 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (15367 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET lastLoginTime = ? where id=? 
+- (15368 ms) - 2017-5-26 10:35:57[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 2017-05-26 10:35:57.989(Timestamp), 2(Integer)
+- (15370 ms) - 2017-5-26 10:35:58[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fded8c]
+- (15371 ms) - 2017-5-26 10:35:58[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (15413 ms) - 2017-5-26 10:35:58[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@d4bd93]
+- (15413 ms) - 2017-5-26 10:35:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (15413 ms) - 2017-5-26 10:35:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (15420 ms) - 2017-5-26 10:35:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (15424 ms) - 2017-5-26 10:35:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (15424 ms) - 2017-5-26 10:35:58[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (15425 ms) - 2017-5-26 10:35:58[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (15425 ms) - 2017-5-26 10:35:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (15426 ms) - 2017-5-26 10:35:58[DEBUG](LoginController.java:56) main==============
+- (15453 ms) - 2017-5-26 10:35:58[DEBUG](LoginController.java:88) menuList from reids ===========>[{"mainMenu":{"creationTime":null,"funcUrl":"","functionCode":"backendmanage","functionName":"后台管理","id":1,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/userlist.html","functionCode":"userlist","functionName":"用户管理","id":7,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/rolelist.html","functionCode":"rolelist","functionName":"角色管理","id":8,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/authoritymanage.html","functionCode":"authoritymanage","functionName":"权限管理","id":9,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodsinfolist.html","functionCode":"goodsinfolist","functionName":"商品管理","id":10,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodspacklist.html","functionCode":"goodspacklist","functionName":"商品套餐管理","id":11,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/dicmanage.html","functionCode":"datadictionary","functionName":"数据字典","id":12,"parentId":1,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"membermanage","functionName":"会员管理","id":2,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/registmember.html","functionCode":"registmember","functionName":"注册新会员","id":13,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/memberlist.html","functionCode":"memberlist","functionName":"新会员管理","id":14,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalinfo.html","functionCode":"modifypersonalinfo","functionName":"修改本人资料","id":15,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalpwd.html","functionCode":"modifypersonalpwd","functionName":"修改本人密码","id":16,"parentId":2,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"ebank","functionName":"电子银行","id":3,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"shoppingmanage","functionName":"购物管理","id":4,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"infosearch","functionName":"信息查询","id":5,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"informanage","functionName":"信息管理","id":6,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/affiche.html","functionCode":"affiche","functionName":"公告管理","id":17,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/information.html","functionCode":"information","functionName":"资讯管理","id":18,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/downloadcenter.html","functionCode":"download","functionName":"下载中心","id":19,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/messagelist.html","functionCode":"messagelist","functionName":"留言管理","id":20,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/mymessage.html","functionCode":"mymessage","functionName":"我的留言","id":21,"parentId":6,"roleId":0}]}]
+- (15466 ms) - 2017-5-26 10:35:58[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'main'
+- (15467 ms) - 2017-5-26 10:35:58[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'main'; URL [/WEB-INF/pages/main.jsp]] in DispatcherServlet with name 'spring'
+- (15467 ms) - 2017-5-26 10:35:58[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name 'main'
+- (15467 ms) - 2017-5-26 10:35:58[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name 'main'
+- (15467 ms) - 2017-5-26 10:35:58[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'main'
+- (15475 ms) - 2017-5-26 10:35:58[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/main.jsp] in InternalResourceView 'main'
+- (19140 ms) - 2017-5-26 10:36:01[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (59692 ms) - 2017-5-26 10:36:42[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/logout.html]
+- (59692 ms) - 2017-5-26 10:36:42[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /logout.html
+- (59693 ms) - 2017-5-26 10:36:42[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.String org.slsale.controller.user.LoginController.logout(javax.servlet.http.HttpSession)]
+- (59693 ms) - 2017-5-26 10:36:42[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (59694 ms) - 2017-5-26 10:36:42[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/logout.html] is: -1
+- (59695 ms) - 2017-5-26 10:36:42[DEBUG](AbstractAutowireCapableBeanFactory.java:1525) Invoking afterPropertiesSet() on bean with name 'index'
+- (59695 ms) - 2017-5-26 10:36:42[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'spring'
+- (59695 ms) - 2017-5-26 10:36:42[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+- (59700 ms) - 2017-5-26 10:36:42[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (104562 ms) - 2017-5-26 10:37:27[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (104562 ms) - 2017-5-26 10:37:27[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (104563 ms) - 2017-5-26 10:37:27[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (104563 ms) - 2017-5-26 10:37:27[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (104563 ms) - 2017-5-26 10:37:27[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (104564 ms) - 2017-5-26 10:37:27[DEBUG](LoginController.java:56) main==============
+- (104565 ms) - 2017-5-26 10:37:27[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/'; URL [/]] in DispatcherServlet with name 'spring'
+- (104565 ms) - 2017-5-26 10:37:27[DEBUG](FrameworkServlet.java:966) Successfully completed request

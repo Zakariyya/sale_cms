@@ -1,0 +1,18 @@
+- (86429030 ms) - 2017-6-21 07:53:34[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/logincodeisexist.html]
+- (86429065 ms) - 2017-6-21 07:53:34[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/logincodeisexist.html
+- (86429066 ms) - 2017-6-21 07:53:34[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.String org.slsale.controller.user.UserController.loginCodeIsExist(java.lang.String,java.lang.String)]
+- (86429066 ms) - 2017-6-21 07:53:34[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (86429068 ms) - 2017-6-21 07:53:34[DEBUG](UserController.java:261) loginCode=============>>>>>>>test06191
+- (86429069 ms) - 2017-6-21 07:53:34[DEBUG](UserController.java:262) id=============>>>>>>>-1
+- (86429069 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (86429070 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bd8] was not registered for synchronization because synchronization is not active
+- (86429071 ms) - 2017-6-21 07:53:34[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (86429073 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (86429073 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (86429074 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode = ? 
+- (86429082 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: test06191(String)
+- (86429085 ms) - 2017-6-21 07:53:34[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bd8]
+- (86429086 ms) - 2017-6-21 07:53:34[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (86429088 ms) - 2017-6-21 07:53:34[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [only] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@14a6d16]
+- (86429089 ms) - 2017-6-21 07:53:34[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (86429089 ms) - 2017-6-21 07:53:34[DEBUG](FrameworkServlet.java:966) Successfully completed request

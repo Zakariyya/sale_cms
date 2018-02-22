@@ -1,0 +1,679 @@
+- (365640740 ms) - 2017-6-30 21:38:12[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (365645346 ms) - 2017-6-30 21:38:17[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (365645546 ms) - 2017-6-30 21:38:17[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (365645644 ms) - 2017-6-30 21:38:17[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (365645645 ms) - 2017-6-30 21:38:17[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (365646222 ms) - 2017-6-30 21:38:17[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/'; URL [/]] in DispatcherServlet with name 'spring'
+- (365646222 ms) - 2017-6-30 21:38:17[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365675070 ms) - 2017-6-30 21:38:46[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/bootstrap-cerulean.css]
+- (365675071 ms) - 2017-6-30 21:38:46[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/bootstrap-cerulean.css
+- (365675072 ms) - 2017-6-30 21:38:46[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/bootstrap-cerulean.css]
+- (365675073 ms) - 2017-6-30 21:38:46[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/bootstrap-cerulean.css] are [/statics/**]
+- (365675073 ms) - 2017-6-30 21:38:46[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/bootstrap-cerulean.css] are {}
+- (365675073 ms) - 2017-6-30 21:38:46[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/bootstrap-cerulean.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365675074 ms) - 2017-6-30 21:38:46[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/bootstrap-cerulean.css] is: -1
+- (365675074 ms) - 2017-6-30 21:38:46[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/bootstrap-cerulean.css] against base location: ServletContext resource [/statics/]
+- (365675074 ms) - 2017-6-30 21:38:46[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/bootstrap-cerulean.css]
+- (365675075 ms) - 2017-6-30 21:38:46[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/bootstrap-cerulean.css]
+- (365677148 ms) - 2017-6-30 21:38:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/chosen.css]
+- (365677397 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/chosen.css
+- (365677170 ms) - 2017-6-30 21:38:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/bootstrap-responsive.css]
+- (365677399 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/bootstrap-responsive.css
+- (365677399 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/chosen.css]
+- (365677399 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/bootstrap-responsive.css]
+- (365677400 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/chosen.css] are [/statics/**]
+- (365677401 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/bootstrap-responsive.css] are [/statics/**]
+- (365677502 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/bootstrap-responsive.css] are {}
+- (365677503 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/bootstrap-responsive.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365677503 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/bootstrap-responsive.css] is: -1
+- (365677487 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/fullcalendar.css]
+- (365677437 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/jquery-ui-1.8.21.custom.css]
+- (365677402 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/chosen.css] are {}
+- (365677504 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/jquery-ui-1.8.21.custom.css
+- (365677504 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/fullcalendar.css
+- (365677503 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/bootstrap-responsive.css] against base location: ServletContext resource [/statics/]
+- (365677506 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/jquery-ui-1.8.21.custom.css]
+- (365677505 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/chosen.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365677506 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/jquery-ui-1.8.21.custom.css] are [/statics/**]
+- (365677506 ms) - 2017-6-30 21:38:49[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/fullcalendar.css]
+- (365677506 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/bootstrap-responsive.css]
+- (365677508 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/fullcalendar.css] are [/statics/**]
+- (365677507 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/jquery-ui-1.8.21.custom.css] are {}
+- (365677507 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/chosen.css] is: -1
+- (365677509 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/jquery-ui-1.8.21.custom.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365677508 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/fullcalendar.css] are {}
+- (365677508 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/bootstrap-responsive.css]
+- (365677510 ms) - 2017-6-30 21:38:49[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/fullcalendar.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365677510 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/jquery-ui-1.8.21.custom.css] is: -1
+- (365677509 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/chosen.css] against base location: ServletContext resource [/statics/]
+- (365677512 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/jquery-ui-1.8.21.custom.css] against base location: ServletContext resource [/statics/]
+- (365677511 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/fullcalendar.css] is: -1
+- (365677514 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/fullcalendar.css] against base location: ServletContext resource [/statics/]
+- (365677513 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/jquery-ui-1.8.21.custom.css]
+- (365677515 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/jquery-ui-1.8.21.custom.css]
+- (365677513 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/chosen.css]
+- (365677516 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/chosen.css]
+- (365677514 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/fullcalendar.css]
+- (365677517 ms) - 2017-6-30 21:38:49[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/fullcalendar.css]
+- (365677855 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365677856 ms) - 2017-6-30 21:38:49[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365678270 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365678270 ms) - 2017-6-30 21:38:49[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365678270 ms) - 2017-6-30 21:38:49[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365678270 ms) - 2017-6-30 21:38:49[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365678498 ms) - 2017-6-30 21:38:50[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/charisma-app.css]
+- (365678499 ms) - 2017-6-30 21:38:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/charisma-app.css
+- (365678499 ms) - 2017-6-30 21:38:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/charisma-app.css]
+- (365678499 ms) - 2017-6-30 21:38:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/charisma-app.css] are [/statics/**]
+- (365678499 ms) - 2017-6-30 21:38:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/charisma-app.css] are {}
+- (365678500 ms) - 2017-6-30 21:38:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/charisma-app.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365678500 ms) - 2017-6-30 21:38:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/charisma-app.css] is: -1
+- (365678500 ms) - 2017-6-30 21:38:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/charisma-app.css] against base location: ServletContext resource [/statics/]
+- (365678500 ms) - 2017-6-30 21:38:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/charisma-app.css]
+- (365678500 ms) - 2017-6-30 21:38:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/charisma-app.css]
+- (365678501 ms) - 2017-6-30 21:38:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365678501 ms) - 2017-6-30 21:38:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365692136 ms) - 2017-6-30 21:39:03[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365692137 ms) - 2017-6-30 21:39:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365695134 ms) - 2017-6-30 21:39:06[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/uniform.default.css]
+- (365695134 ms) - 2017-6-30 21:39:06[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/uniform.default.css
+- (365695135 ms) - 2017-6-30 21:39:06[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/uniform.default.css]
+- (365695136 ms) - 2017-6-30 21:39:06[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/uniform.default.css] are [/statics/**]
+- (365695137 ms) - 2017-6-30 21:39:06[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/uniform.default.css] are {}
+- (365695137 ms) - 2017-6-30 21:39:06[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/uniform.default.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365695138 ms) - 2017-6-30 21:39:06[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/uniform.default.css] is: -1
+- (365695138 ms) - 2017-6-30 21:39:06[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/uniform.default.css] against base location: ServletContext resource [/statics/]
+- (365695138 ms) - 2017-6-30 21:39:06[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/uniform.default.css]
+- (365695139 ms) - 2017-6-30 21:39:06[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/uniform.default.css]
+- (365695646 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/jquery.cleditor.css]
+- (365695647 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/jquery.cleditor.css
+- (365695647 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/jquery.cleditor.css]
+- (365695648 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/jquery.cleditor.css] are [/statics/**]
+- (365695648 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/jquery.cleditor.css] are {}
+- (365695650 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/jquery.cleditor.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365695650 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/jquery.cleditor.css] is: -1
+- (365695651 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/jquery.cleditor.css] against base location: ServletContext resource [/statics/]
+- (365695651 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/jquery.cleditor.css]
+- (365695651 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/jquery.cleditor.css]
+- (365695654 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365695654 ms) - 2017-6-30 21:39:07[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365695671 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/colorbox.css]
+- (365695671 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/colorbox.css
+- (365695672 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/colorbox.css]
+- (365695672 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/colorbox.css] are [/statics/**]
+- (365695673 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/colorbox.css] are {}
+- (365695673 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/colorbox.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365695673 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/colorbox.css] is: -1
+- (365695674 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/colorbox.css] against base location: ServletContext resource [/statics/]
+- (365695674 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/colorbox.css]
+- (365695674 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/colorbox.css]
+- (365695675 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365695676 ms) - 2017-6-30 21:39:07[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365695685 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365695685 ms) - 2017-6-30 21:39:07[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365696047 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/jquery.noty.css]
+- (365696047 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/jquery.noty.css
+- (365696047 ms) - 2017-6-30 21:39:07[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/jquery.noty.css]
+- (365696048 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/jquery.noty.css] are [/statics/**]
+- (365696048 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/jquery.noty.css] are {}
+- (365696048 ms) - 2017-6-30 21:39:07[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/jquery.noty.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365696049 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/jquery.noty.css] is: -1
+- (365696049 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/jquery.noty.css] against base location: ServletContext resource [/statics/]
+- (365696049 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/jquery.noty.css]
+- (365696049 ms) - 2017-6-30 21:39:07[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/jquery.noty.css]
+- (365696050 ms) - 2017-6-30 21:39:07[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365696051 ms) - 2017-6-30 21:39:07[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365696650 ms) - 2017-6-30 21:39:08[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365696650 ms) - 2017-6-30 21:39:08[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365696736 ms) - 2017-6-30 21:39:08[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/noty_theme_default.css]
+- (365696736 ms) - 2017-6-30 21:39:08[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/noty_theme_default.css
+- (365696737 ms) - 2017-6-30 21:39:08[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/noty_theme_default.css]
+- (365696737 ms) - 2017-6-30 21:39:08[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/noty_theme_default.css] are [/statics/**]
+- (365696737 ms) - 2017-6-30 21:39:08[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/noty_theme_default.css] are {}
+- (365696738 ms) - 2017-6-30 21:39:08[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/noty_theme_default.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365696738 ms) - 2017-6-30 21:39:08[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/noty_theme_default.css] is: -1
+- (365696739 ms) - 2017-6-30 21:39:08[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/noty_theme_default.css] against base location: ServletContext resource [/statics/]
+- (365696739 ms) - 2017-6-30 21:39:08[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/noty_theme_default.css]
+- (365696740 ms) - 2017-6-30 21:39:08[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/noty_theme_default.css]
+- (365696741 ms) - 2017-6-30 21:39:08[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365696741 ms) - 2017-6-30 21:39:08[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365699969 ms) - 2017-6-30 21:39:11[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/jquery.iphone.toggle.css]
+- (365699970 ms) - 2017-6-30 21:39:11[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/jquery.iphone.toggle.css
+- (365699971 ms) - 2017-6-30 21:39:11[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/jquery.iphone.toggle.css]
+- (365699971 ms) - 2017-6-30 21:39:11[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/jquery.iphone.toggle.css] are [/statics/**]
+- (365699972 ms) - 2017-6-30 21:39:11[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/jquery.iphone.toggle.css] are {}
+- (365711554 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/jquery.iphone.toggle.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365701763 ms) - 2017-6-30 21:39:13[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery-1.7.2.min.js]
+- (365711555 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery-1.7.2.min.js
+- (365711555 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery-1.7.2.min.js]
+- (365701633 ms) - 2017-6-30 21:39:13[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/uploadify.css]
+- (365700687 ms) - 2017-6-30 21:39:12[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/opa-icons.css]
+- (365700580 ms) - 2017-6-30 21:39:12[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/elfinder.theme.css]
+- (365711558 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/elfinder.theme.css
+- (365700480 ms) - 2017-6-30 21:39:12[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/elfinder.min.css]
+- (365711559 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/elfinder.min.css
+- (365711559 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/elfinder.theme.css]
+- (365711561 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/elfinder.theme.css] are [/statics/**]
+- (365711562 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/elfinder.theme.css] are {}
+- (365711562 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/elfinder.theme.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365711556 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/opa-icons.css
+- (365711556 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/uploadify.css
+- (365711556 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery-1.7.2.min.js] are [/statics/**]
+- (365711554 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/jquery.iphone.toggle.css] is: -1
+- (365711564 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/uploadify.css]
+- (365711564 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/uploadify.css] are [/statics/**]
+- (365711565 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/uploadify.css] are {}
+- (365711565 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/uploadify.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365711565 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/uploadify.css] is: -1
+- (365711566 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/uploadify.css] against base location: ServletContext resource [/statics/]
+- (365711564 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery-1.7.2.min.js] are {}
+- (365711563 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/opa-icons.css]
+- (365711563 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/elfinder.theme.css] is: -1
+- (365711560 ms) - 2017-6-30 21:39:23[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/elfinder.min.css]
+- (365711567 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/elfinder.theme.css] against base location: ServletContext resource [/statics/]
+- (365711567 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/opa-icons.css] are [/statics/**]
+- (365711567 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery-1.7.2.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365711564 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/jquery.iphone.toggle.css] against base location: ServletContext resource [/statics/]
+- (365711569 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery-1.7.2.min.js] is: -1
+- (365711569 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/opa-icons.css] are {}
+- (365711570 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/opa-icons.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365711568 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/elfinder.min.css] are [/statics/**]
+- (365711571 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/opa-icons.css] is: -1
+- (365711570 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery-1.7.2.min.js] against base location: ServletContext resource [/statics/]
+- (365711571 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/opa-icons.css] against base location: ServletContext resource [/statics/]
+- (365711571 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/elfinder.min.css] are {}
+- (365711573 ms) - 2017-6-30 21:39:23[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/elfinder.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365711573 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/elfinder.min.css] is: -1
+- (365711573 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/elfinder.min.css] against base location: ServletContext resource [/statics/]
+- (365711846 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/elfinder.min.css]
+- (365711846 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/elfinder.min.css]
+- (365711870 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365711870 ms) - 2017-6-30 21:39:23[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365711934 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/jquery.iphone.toggle.css]
+- (365711935 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/jquery.iphone.toggle.css]
+- (365711936 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365711936 ms) - 2017-6-30 21:39:23[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365711985 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/uploadify.css]
+- (365711986 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/uploadify.css]
+- (365711987 ms) - 2017-6-30 21:39:23[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365711987 ms) - 2017-6-30 21:39:23[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365712015 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/opa-icons.css]
+- (365712016 ms) - 2017-6-30 21:39:23[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/opa-icons.css]
+- (365712863 ms) - 2017-6-30 21:39:24[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365712864 ms) - 2017-6-30 21:39:24[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365713601 ms) - 2017-6-30 21:39:25[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/elfinder.theme.css]
+- (365713601 ms) - 2017-6-30 21:39:25[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/elfinder.theme.css]
+- (365713602 ms) - 2017-6-30 21:39:25[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365713602 ms) - 2017-6-30 21:39:25[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365714463 ms) - 2017-6-30 21:39:26[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-transition.js]
+- (365714463 ms) - 2017-6-30 21:39:26[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-transition.js
+- (365714464 ms) - 2017-6-30 21:39:26[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-transition.js]
+- (365714465 ms) - 2017-6-30 21:39:26[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-transition.js] are [/statics/**]
+- (365714465 ms) - 2017-6-30 21:39:26[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-transition.js] are {}
+- (365714465 ms) - 2017-6-30 21:39:26[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-transition.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365714466 ms) - 2017-6-30 21:39:26[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-transition.js] is: -1
+- (365714466 ms) - 2017-6-30 21:39:26[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-transition.js] against base location: ServletContext resource [/statics/]
+- (365714466 ms) - 2017-6-30 21:39:26[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-transition.js]
+- (365714467 ms) - 2017-6-30 21:39:26[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-transition.js]
+- (365714465 ms) - 2017-6-30 21:39:26[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery-1.7.2.min.js]
+- (365714468 ms) - 2017-6-30 21:39:26[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365714468 ms) - 2017-6-30 21:39:26[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365714469 ms) - 2017-6-30 21:39:26[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery-1.7.2.min.js]
+- (365714663 ms) - 2017-6-30 21:39:26[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365714663 ms) - 2017-6-30 21:39:26[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365716303 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-modal.js]
+- (365716304 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-modal.js
+- (365716305 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-modal.js]
+- (365716305 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-modal.js] are [/statics/**]
+- (365716305 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-modal.js] are {}
+- (365716306 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-modal.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365716306 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-modal.js] is: -1
+- (365716306 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-modal.js] against base location: ServletContext resource [/statics/]
+- (365716307 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-modal.js]
+- (365716307 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-modal.js]
+- (365716308 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365716308 ms) - 2017-6-30 21:39:28[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365716798 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-alert.js]
+- (365716799 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-alert.js
+- (365716800 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-alert.js]
+- (365716800 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-alert.js] are [/statics/**]
+- (365716801 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-alert.js] are {}
+- (365716801 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-alert.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365716801 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-alert.js] is: -1
+- (365716802 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-alert.js] against base location: ServletContext resource [/statics/]
+- (365716802 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-alert.js]
+- (365716802 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-alert.js]
+- (365716803 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365716804 ms) - 2017-6-30 21:39:28[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365717083 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-scrollspy.js]
+- (365717084 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-scrollspy.js
+- (365717085 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-scrollspy.js]
+- (365717086 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-scrollspy.js] are [/statics/**]
+- (365717086 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-scrollspy.js] are {}
+- (365717087 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-scrollspy.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365717088 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-scrollspy.js] is: -1
+- (365717088 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-scrollspy.js] against base location: ServletContext resource [/statics/]
+- (365717089 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-scrollspy.js]
+- (365717089 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-scrollspy.js]
+- (365717090 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365717091 ms) - 2017-6-30 21:39:28[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365717106 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery-ui-1.8.21.custom.min.js]
+- (365717106 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery-ui-1.8.21.custom.min.js
+- (365717107 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery-ui-1.8.21.custom.min.js]
+- (365717107 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery-ui-1.8.21.custom.min.js] are [/statics/**]
+- (365717108 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery-ui-1.8.21.custom.min.js] are {}
+- (365717108 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-dropdown.js]
+- (365717108 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery-ui-1.8.21.custom.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365717109 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-dropdown.js
+- (365717110 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery-ui-1.8.21.custom.min.js] is: -1
+- (365717111 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery-ui-1.8.21.custom.min.js] against base location: ServletContext resource [/statics/]
+- (365717111 ms) - 2017-6-30 21:39:28[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-dropdown.js]
+- (365717111 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery-ui-1.8.21.custom.min.js]
+- (365717111 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-dropdown.js] are [/statics/**]
+- (365717112 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery-ui-1.8.21.custom.min.js]
+- (365717112 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-dropdown.js] are {}
+- (365717113 ms) - 2017-6-30 21:39:28[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-dropdown.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365717113 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-dropdown.js] is: -1
+- (365717114 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-dropdown.js] against base location: ServletContext resource [/statics/]
+- (365717114 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-dropdown.js]
+- (365717115 ms) - 2017-6-30 21:39:28[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-dropdown.js]
+- (365717115 ms) - 2017-6-30 21:39:28[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365717116 ms) - 2017-6-30 21:39:28[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365717607 ms) - 2017-6-30 21:39:29[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365717608 ms) - 2017-6-30 21:39:29[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365718419 ms) - 2017-6-30 21:39:30[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-tab.js]
+- (365718420 ms) - 2017-6-30 21:39:30[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-tab.js
+- (365718420 ms) - 2017-6-30 21:39:30[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-tab.js]
+- (365720706 ms) - 2017-6-30 21:39:32[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-carousel.js]
+- (365733262 ms) - 2017-6-30 21:39:44[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-carousel.js
+- (365719386 ms) - 2017-6-30 21:39:31[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-collapse.js]
+- (365719283 ms) - 2017-6-30 21:39:30[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-tooltip.js]
+- (365738402 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-tooltip.js
+- (365738403 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-tooltip.js]
+- (365738404 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-tooltip.js] are [/statics/**]
+- (365738404 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-tooltip.js] are {}
+- (365738405 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-tooltip.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738405 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-tooltip.js] is: -1
+- (365738405 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-tooltip.js] against base location: ServletContext resource [/statics/]
+- (365718665 ms) - 2017-6-30 21:39:30[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-popover.js]
+- (365738407 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-popover.js
+- (365738408 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-popover.js]
+- (365738408 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-popover.js] are [/statics/**]
+- (365738408 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-popover.js] are {}
+- (365738409 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-popover.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738411 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-popover.js] is: -1
+- (365738411 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-popover.js] against base location: ServletContext resource [/statics/]
+- (365718473 ms) - 2017-6-30 21:39:30[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-button.js]
+- (365738412 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-button.js
+- (365738415 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-button.js]
+- (365738416 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-button.js] are [/statics/**]
+- (365738417 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-button.js] are {}
+- (365738418 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-button.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738419 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-button.js] is: -1
+- (365738419 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-button.js] against base location: ServletContext resource [/statics/]
+- (365733263 ms) - 2017-6-30 21:39:44[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-collapse.js
+- (365738421 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-collapse.js]
+- (365738421 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-collapse.js] are [/statics/**]
+- (365738422 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-collapse.js] are {}
+- (365738422 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-collapse.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738422 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-collapse.js] is: -1
+- (365738423 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-collapse.js] against base location: ServletContext resource [/statics/]
+- (365733262 ms) - 2017-6-30 21:39:44[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-carousel.js]
+- (365738424 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-carousel.js] are [/statics/**]
+- (365738424 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-carousel.js] are {}
+- (365738425 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-carousel.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738425 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-carousel.js] is: -1
+- (365738426 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-carousel.js] against base location: ServletContext resource [/statics/]
+- (365733262 ms) - 2017-6-30 21:39:44[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-tab.js] are [/statics/**]
+- (365738427 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-tab.js] are {}
+- (365738427 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-tab.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365738428 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-tab.js] is: -1
+- (365738428 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-tab.js] against base location: ServletContext resource [/statics/]
+- (365738971 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-popover.js]
+- (365738972 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-popover.js]
+- (365738973 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365738973 ms) - 2017-6-30 21:39:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365739096 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-tooltip.js]
+- (365739097 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-tooltip.js]
+- (365739142 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/azR40LUJrT4HaWK28zHmVA.woff]
+- (365739143 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/azR40LUJrT4HaWK28zHmVA.woff
+- (365739144 ms) - 2017-6-30 21:39:50[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/azR40LUJrT4HaWK28zHmVA.woff]
+- (365739144 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/azR40LUJrT4HaWK28zHmVA.woff] are [/statics/**]
+- (365739144 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/azR40LUJrT4HaWK28zHmVA.woff] are {}
+- (365739145 ms) - 2017-6-30 21:39:50[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/azR40LUJrT4HaWK28zHmVA.woff] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365739145 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/azR40LUJrT4HaWK28zHmVA.woff] is: -1
+- (365739145 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/azR40LUJrT4HaWK28zHmVA.woff] against base location: ServletContext resource [/statics/]
+- (365739146 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/azR40LUJrT4HaWK28zHmVA.woff]
+- (365739146 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/x-font-woff' for ServletContext resource [/statics/css/azR40LUJrT4HaWK28zHmVA.woff]
+- (365739153 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365739153 ms) - 2017-6-30 21:39:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365739159 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365739160 ms) - 2017-6-30 21:39:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365739198 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-collapse.js]
+- (365739198 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-collapse.js]
+- (365739201 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365739201 ms) - 2017-6-30 21:39:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365739275 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-button.js]
+- (365739275 ms) - 2017-6-30 21:39:50[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-button.js]
+- (365739276 ms) - 2017-6-30 21:39:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365739277 ms) - 2017-6-30 21:39:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365739394 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-tab.js]
+- (365739395 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-tab.js]
+- (365739395 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365739395 ms) - 2017-6-30 21:39:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740189 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff]
+- (365740190 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/_xyN3apAT_yRRDeqB3sPRg.woff
+- (365740191 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff]
+- (365740191 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff] are [/statics/**]
+- (365740191 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff] are {}
+- (365740192 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740192 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff] is: -1
+- (365740193 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/_xyN3apAT_yRRDeqB3sPRg.woff] against base location: ServletContext resource [/statics/]
+- (365740193 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff]
+- (365740193 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/x-font-woff' for ServletContext resource [/statics/css/_xyN3apAT_yRRDeqB3sPRg.woff]
+- (365740252 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.cookie.js]
+- (365740252 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.cookie.js
+- (365740253 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.cookie.js]
+- (365740253 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.cookie.js] are [/statics/**]
+- (365740253 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.cookie.js] are {}
+- (365740254 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.cookie.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740254 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.cookie.js] is: -1
+- (365740254 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.cookie.js] against base location: ServletContext resource [/statics/]
+- (365740254 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.cookie.js]
+- (365740255 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.cookie.js]
+- (365740255 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740255 ms) - 2017-6-30 21:39:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740256 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/fullcalendar.min.js]
+- (365740257 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/fullcalendar.min.js
+- (365740257 ms) - 2017-6-30 21:39:51[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/fullcalendar.min.js]
+- (365740257 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/fullcalendar.min.js] are [/statics/**]
+- (365740257 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/fullcalendar.min.js] are {}
+- (365740258 ms) - 2017-6-30 21:39:51[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/fullcalendar.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740258 ms) - 2017-6-30 21:39:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/fullcalendar.min.js] is: -1
+- (365740258 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/fullcalendar.min.js] against base location: ServletContext resource [/statics/]
+- (365740258 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/fullcalendar.min.js]
+- (365740258 ms) - 2017-6-30 21:39:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/fullcalendar.min.js]
+- (365740301 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-typeahead.js]
+- (365740302 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-typeahead.js
+- (365740302 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-typeahead.js]
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-typeahead.js] are [/statics/**]
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-typeahead.js] are {}
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-typeahead.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-typeahead.js] is: -1
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-typeahead.js] against base location: ServletContext resource [/statics/]
+- (365740303 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-typeahead.js]
+- (365740304 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-typeahead.js]
+- (365740304 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740304 ms) - 2017-6-30 21:39:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740335 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-carousel.js]
+- (365740335 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-carousel.js]
+- (365740336 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740336 ms) - 2017-6-30 21:39:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740576 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/excanvas.js]
+- (365740577 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/excanvas.js
+- (365740577 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.dataTables.min.js]
+- (365740578 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.dataTables.min.js
+- (365740579 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.dataTables.min.js]
+- (365740579 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.dataTables.min.js] are [/statics/**]
+- (365740579 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.dataTables.min.js] are {}
+- (365740580 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.dataTables.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740578 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/excanvas.js]
+- (365740580 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.dataTables.min.js] is: -1
+- (365740581 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.dataTables.min.js] against base location: ServletContext resource [/statics/]
+- (365740581 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.dataTables.min.js]
+- (365740580 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/excanvas.js] are [/statics/**]
+- (365740582 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.dataTables.min.js]
+- (365740582 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/excanvas.js] are {}
+- (365740583 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/excanvas.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740583 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/excanvas.js] is: -1
+- (365740583 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/excanvas.js] against base location: ServletContext resource [/statics/]
+- (365740584 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/excanvas.js]
+- (365740584 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/excanvas.js]
+- (365740606 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/bootstrap-tour.js]
+- (365740606 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/bootstrap-tour.js
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/bootstrap-tour.js]
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/bootstrap-tour.js] are [/statics/**]
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/bootstrap-tour.js] are {}
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/bootstrap-tour.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/bootstrap-tour.js] is: -1
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/bootstrap-tour.js] against base location: ServletContext resource [/statics/]
+- (365740607 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/bootstrap-tour.js]
+- (365740608 ms) - 2017-6-30 21:39:52[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/bootstrap-tour.js]
+- (365740608 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740608 ms) - 2017-6-30 21:39:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740699 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740699 ms) - 2017-6-30 21:39:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740700 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740700 ms) - 2017-6-30 21:39:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740700 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365740847 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.flot.resize.min.js]
+- (365747110 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.flot.resize.min.js
+- (365747111 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.flot.resize.min.js]
+- (365747112 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.flot.resize.min.js] are [/statics/**]
+- (365747112 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.flot.resize.min.js] are {}
+- (365747113 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.flot.resize.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747113 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.flot.resize.min.js] is: -1
+- (365747114 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.flot.resize.min.js] against base location: ServletContext resource [/statics/]
+- (365747115 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.flot.resize.min.js]
+- (365747115 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.flot.resize.min.js]
+- (365747116 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747117 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365740846 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.flot.stack.js]
+- (365747118 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.flot.stack.js
+- (365747121 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.flot.stack.js]
+- (365747121 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.flot.stack.js] are [/statics/**]
+- (365747122 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.flot.stack.js] are {}
+- (365747122 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.flot.stack.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747123 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.flot.stack.js] is: -1
+- (365747124 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.flot.stack.js] against base location: ServletContext resource [/statics/]
+- (365740823 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747125 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747125 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.flot.stack.js]
+- (365747126 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.flot.stack.js]
+- (365740734 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.flot.pie.min.js]
+- (365747127 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.flot.pie.min.js
+- (365740734 ms) - 2017-6-30 21:39:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.flot.min.js]
+- (365747128 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.flot.min.js
+- (365747110 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747129 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.flot.min.js]
+- (365747128 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.flot.pie.min.js]
+- (365747130 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.flot.pie.min.js] are [/statics/**]
+- (365747129 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.flot.min.js] are [/statics/**]
+- (365747130 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.flot.pie.min.js] are {}
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.flot.min.js] are {}
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.flot.pie.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.flot.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.flot.pie.min.js] is: -1
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.flot.min.js] is: -1
+- (365747131 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.flot.pie.min.js] against base location: ServletContext resource [/statics/]
+- (365747132 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.flot.min.js] against base location: ServletContext resource [/statics/]
+- (365747177 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747177 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747210 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.flot.pie.min.js]
+- (365747210 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.flot.pie.min.js]
+- (365747211 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.colorbox.min.js]
+- (365747211 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.colorbox.min.js
+- (365747214 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.colorbox.min.js]
+- (365747215 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.colorbox.min.js] are [/statics/**]
+- (365747215 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.colorbox.min.js] are {}
+- (365747215 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.colorbox.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747216 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.colorbox.min.js] is: -1
+- (365747216 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.colorbox.min.js] against base location: ServletContext resource [/statics/]
+- (365747216 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.colorbox.min.js]
+- (365747217 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.colorbox.min.js]
+- (365747210 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.flot.min.js]
+- (365747225 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.flot.min.js]
+- (365747217 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747214 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.chosen.min.js]
+- (365747227 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.chosen.min.js
+- (365747212 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.uniform.min.js]
+- (365747227 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.uniform.min.js
+- (365747212 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.cleditor.min.js]
+- (365747228 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.cleditor.min.js
+- (365747228 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.cleditor.min.js]
+- (365747227 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.uniform.min.js]
+- (365747227 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.chosen.min.js]
+- (365747226 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747230 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.chosen.min.js] are [/statics/**]
+- (365747230 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.chosen.min.js] are {}
+- (365747232 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.chosen.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747233 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.chosen.min.js] is: -1
+- (365747233 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.chosen.min.js] against base location: ServletContext resource [/statics/]
+- (365747228 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.uniform.min.js] are [/statics/**]
+- (365747228 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.cleditor.min.js] are [/statics/**]
+- (365747233 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.cleditor.min.js] are {}
+- (365747234 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.cleditor.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747234 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.cleditor.min.js] is: -1
+- (365747234 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.cleditor.min.js] against base location: ServletContext resource [/statics/]
+- (365747234 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.cleditor.min.js]
+- (365747234 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.cleditor.min.js]
+- (365747233 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.uniform.min.js] are {}
+- (365747233 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.chosen.min.js]
+- (365747235 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.chosen.min.js]
+- (365747231 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.noty.js]
+- (365747235 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.uniform.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747235 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.noty.js
+- (365747235 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.uniform.min.js] is: -1
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.noty.js]
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.noty.js] are [/statics/**]
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.noty.js] are {}
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.noty.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.noty.js] is: -1
+- (365747237 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.noty.js] against base location: ServletContext resource [/statics/]
+- (365747236 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.uniform.min.js] against base location: ServletContext resource [/statics/]
+- (365747237 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.noty.js]
+- (365747237 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.uniform.min.js]
+- (365747237 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.noty.js]
+- (365747237 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.uniform.min.js]
+- (365747238 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747238 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747238 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747238 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747266 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747267 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747270 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.elfinder.min.js]
+- (365747271 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.elfinder.min.js
+- (365747271 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.elfinder.min.js]
+- (365747271 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.elfinder.min.js] are [/statics/**]
+- (365747271 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.elfinder.min.js] are {}
+- (365747272 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.elfinder.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747273 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.elfinder.min.js] is: -1
+- (365747273 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.elfinder.min.js] against base location: ServletContext resource [/statics/]
+- (365747273 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.elfinder.min.js]
+- (365747273 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.elfinder.min.js]
+- (365747272 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.raty.min.js]
+- (365747274 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747273 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747274 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747274 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747275 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747274 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.raty.min.js
+- (365747275 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.raty.min.js]
+- (365747275 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.raty.min.js] are [/statics/**]
+- (365747276 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.raty.min.js] are {}
+- (365747276 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.raty.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747274 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747276 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.raty.min.js] is: -1
+- (365747276 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.raty.min.js] against base location: ServletContext resource [/statics/]
+- (365747276 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.raty.min.js]
+- (365747277 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.raty.min.js]
+- (365747277 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747277 ms) - 2017-6-30 21:39:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747284 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.iphone.toggle.js]
+- (365747284 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.iphone.toggle.js
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.iphone.toggle.js]
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.iphone.toggle.js] are [/statics/**]
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.iphone.toggle.js] are {}
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.iphone.toggle.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.iphone.toggle.js] is: -1
+- (365747285 ms) - 2017-6-30 21:39:58[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.iphone.toggle.js] against base location: ServletContext resource [/statics/]
+- (365747286 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.iphone.toggle.js]
+- (365747286 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.iphone.toggle.js]
+- (365747286 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747286 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747512 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.autogrow-textarea.js]
+- (365747513 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.autogrow-textarea.js
+- (365747514 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.autogrow-textarea.js]
+- (365747514 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.autogrow-textarea.js] are [/statics/**]
+- (365747514 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.autogrow-textarea.js] are {}
+- (365747515 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.history.js]
+- (365747517 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.autogrow-textarea.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747518 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.history.js
+- (365747522 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.history.js]
+- (365747522 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/charisma.js]
+- (365747523 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/charisma.js
+- (365747523 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/charisma.js]
+- (365747523 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/charisma.js] are [/statics/**]
+- (365747524 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/charisma.js] are {}
+- (365747524 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/charisma.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747525 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/charisma.js] is: -1
+- (365747525 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/charisma.js] against base location: ServletContext resource [/statics/]
+- (365747525 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/charisma.js]
+- (365747526 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/charisma.js]
+- (365747519 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/js/jquery.uploadify-3.1.min.js]
+- (365747526 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/js/jquery.uploadify-3.1.min.js
+- (365747527 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747527 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/js/jquery.uploadify-3.1.min.js]
+- (365747518 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.autogrow-textarea.js] is: -1
+- (365747528 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.uploadify-3.1.min.js] are [/statics/**]
+- (365747527 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747529 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.uploadify-3.1.min.js] are {}
+- (365747530 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.uploadify-3.1.min.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747530 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.uploadify-3.1.min.js] is: -1
+- (365747530 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.uploadify-3.1.min.js] against base location: ServletContext resource [/statics/]
+- (365747531 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.uploadify-3.1.min.js]
+- (365747531 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.uploadify-3.1.min.js]
+- (365747525 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/localjs/index.js]
+- (365747532 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/localjs/index.js
+- (365747533 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/localjs/index.js]
+- (365747533 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/localjs/index.js] are [/statics/**]
+- (365747533 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/localjs/index.js] are {}
+- (365747534 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/localjs/index.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747534 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/localjs/index.js] is: -1
+- (365747534 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [localjs/index.js] against base location: ServletContext resource [/statics/]
+- (365747535 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/localjs/index.js]
+- (365747535 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/localjs/index.js]
+- (365747536 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747537 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747522 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/js/jquery.history.js] are [/statics/**]
+- (365747528 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.autogrow-textarea.js] against base location: ServletContext resource [/statics/]
+- (365747539 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.autogrow-textarea.js]
+- (365747539 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/js/jquery.history.js] are {}
+- (365747541 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.autogrow-textarea.js]
+- (365747542 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/js/jquery.history.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365747542 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/js/jquery.history.js] is: -1
+- (365747543 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747543 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [js/jquery.history.js] against base location: ServletContext resource [/statics/]
+- (365747543 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365747544 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/js/jquery.history.js]
+- (365747544 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/js/jquery.history.js]
+- (365747546 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365747547 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365748075 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/img/glyphicons-halflings.png]
+- (365748076 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/img/glyphicons-halflings.png
+- (365748077 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/img/glyphicons-halflings.png]
+- (365748077 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/img/glyphicons-halflings.png] are [/statics/**]
+- (365748078 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/img/glyphicons-halflings.png] are {}
+- (365748078 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/img/glyphicons-halflings.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365748078 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/img/glyphicons-halflings.png] is: -1
+- (365748079 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [img/glyphicons-halflings.png] against base location: ServletContext resource [/statics/]
+- (365748079 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/img/glyphicons-halflings.png]
+- (365748080 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/png' for ServletContext resource [/statics/img/glyphicons-halflings.png]
+- (365748081 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365748081 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365748153 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365748154 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365748155 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365748155 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (365748211 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/css/fullcalendar.print.css]
+- (365748211 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/css/fullcalendar.print.css
+- (365748212 ms) - 2017-6-30 21:39:59[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/css/fullcalendar.print.css]
+- (365748212 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/css/fullcalendar.print.css] are [/statics/**]
+- (365748213 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/css/fullcalendar.print.css] are {}
+- (365748213 ms) - 2017-6-30 21:39:59[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/css/fullcalendar.print.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (365748213 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/css/fullcalendar.print.css] is: -1
+- (365748214 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [css/fullcalendar.print.css] against base location: ServletContext resource [/statics/]
+- (365748214 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/css/fullcalendar.print.css]
+- (365748214 ms) - 2017-6-30 21:39:59[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'text/css' for ServletContext resource [/statics/css/fullcalendar.print.css]
+- (365748215 ms) - 2017-6-30 21:39:59[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (365748215 ms) - 2017-6-30 21:39:59[DEBUG](FrameworkServlet.java:966) Successfully completed request

@@ -1,0 +1,870 @@
+- (78754625 ms) - 2017-6-27 13:56:46[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/login.html]
+- (78754629 ms) - 2017-6-27 13:56:46[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /login.html
+- (78754630 ms) - 2017-6-27 13:56:46[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.LoginController.login(javax.servlet.http.HttpSession,java.lang.String)]
+- (78754630 ms) - 2017-6-27 13:56:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (78754633 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78754634 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1293a0e] was not registered for synchronization because synchronization is not active
+- (78754635 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78754637 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78754638 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78754639 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode = ? 
+- (78754640 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String)
+- (78754644 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1293a0e]
+- (78754645 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78754645 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78754646 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d325] was not registered for synchronization because synchronization is not active
+- (78754646 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78754647 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78754648 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78754649 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where loginCode = ? and password = ? 
+- (78754650 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String), 123456(String)
+- (78754651 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d325]
+- (78754652 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78754652 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78754652 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1394287] was not registered for synchronization because synchronization is not active
+- (78754653 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78754653 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78754654 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78754654 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET lastLoginTime = ? where id=? 
+- (78754655 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 2017-06-27 13:56:46.366(Timestamp), 2(Integer)
+- (78754656 ms) - 2017-6-27 13:56:46[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1394287]
+- (78754656 ms) - 2017-6-27 13:56:46[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78754658 ms) - 2017-6-27 13:56:46[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78754658 ms) - 2017-6-27 13:56:46[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78754658 ms) - 2017-6-27 13:56:46[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78754685 ms) - 2017-6-27 13:56:46[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (78754685 ms) - 2017-6-27 13:56:46[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (78754685 ms) - 2017-6-27 13:56:46[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (78754685 ms) - 2017-6-27 13:56:46[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (78754686 ms) - 2017-6-27 13:56:46[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (78754686 ms) - 2017-6-27 13:56:46[DEBUG](LoginController.java:56) main==============
+- (78754743 ms) - 2017-6-27 13:56:46[DEBUG](LoginController.java:88) menuList from reids ===========>[{"mainMenu":{"creationTime":null,"funcUrl":"","functionCode":"backendmanage","functionName":"后台管理","id":1,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/userlist.html","functionCode":"userlist","functionName":"用户管理","id":7,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/rolelist.html","functionCode":"rolelist","functionName":"角色管理","id":8,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/authoritymanage.html","functionCode":"authoritymanage","functionName":"权限管理","id":9,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodsinfolist.html","functionCode":"goodsinfolist","functionName":"商品管理","id":10,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodspacklist.html","functionCode":"goodspacklist","functionName":"商品套餐管理","id":11,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/dicmanage.html","functionCode":"datadictionary","functionName":"数据字典","id":12,"parentId":1,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"membermanage","functionName":"会员管理","id":2,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/registmember.html","functionCode":"registmember","functionName":"注册新会员","id":13,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/memberlist.html","functionCode":"memberlist","functionName":"新会员管理","id":14,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalinfo.html","functionCode":"modifypersonalinfo","functionName":"修改本人资料","id":15,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalpwd.html","functionCode":"modifypersonalpwd","functionName":"修改本人密码","id":16,"parentId":2,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"ebank","functionName":"电子银行","id":3,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"shoppingmanage","functionName":"购物管理","id":4,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"infosearch","functionName":"信息查询","id":5,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"informanage","functionName":"信息管理","id":6,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/affiche.html","functionCode":"affiche","functionName":"公告管理","id":17,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/information.html","functionCode":"information","functionName":"资讯管理","id":18,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/downloadcenter.html","functionCode":"download","functionName":"下载中心","id":19,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/messagelist.html","functionCode":"messagelist","functionName":"留言管理","id":20,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/mymessage.html","functionCode":"mymessage","functionName":"我的留言","id":21,"parentId":6,"roleId":0}]}]
+- (78754745 ms) - 2017-6-27 13:56:46[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'main'; URL [/WEB-INF/pages/main.jsp]] in DispatcherServlet with name 'spring'
+- (78754745 ms) - 2017-6-27 13:56:46[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name 'main'
+- (78754745 ms) - 2017-6-27 13:56:46[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name 'main'
+- (78754746 ms) - 2017-6-27 13:56:46[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'main'
+- (78754747 ms) - 2017-6-27 13:56:46[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/main.jsp] in InternalResourceView 'main'
+- (78754755 ms) - 2017-6-27 13:56:46[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78756409 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (78756409 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (78756410 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (78756410 ms) - 2017-6-27 13:56:48[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78756410 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (78756411 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78756412 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164acdf] was not registered for synchronization because synchronization is not active
+- (78756412 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78756413 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78756413 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78756414 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_role 
+- (78756414 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (78756415 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164acdf]
+- (78756416 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78756416 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78756417 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a21690] was not registered for synchronization because synchronization is not active
+- (78756417 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78756417 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78756418 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78756418 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78756418 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: CARD_TYPE(String)
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a21690]
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:134) cardTypeList.size()===================>>>>>>>>>4
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:162) currentPage  >>>>>>>>>>>>>>>>>>>   null
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78756420 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f4de23] was not registered for synchronization because synchronization is not active
+- (78756421 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78756421 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78756422 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78756422 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user 
+- (78756422 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f4de23]
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:171) page.getTotalCount()====================== 14
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:183) pageSupport.getPageCount() >>>>>>>>>>>>>>>> 7
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:184) pageSupport.getTotalCount() >>>>>>>>>>>>>>>> 14
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:190) user.getPageSize()====================== 2
+- (78756423 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:191) user.getStarNum()====================== 0
+- (78756424 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78756424 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad5a0] was not registered for synchronization because synchronization is not active
+- (78756424 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78756425 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78756425 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78756426 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user order by createTime desc limit ? , ? 
+- (78756427 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 0(Integer), 2(Integer)
+- (78756429 ms) - 2017-6-27 13:56:48[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad5a0]
+- (78756429 ms) - 2017-6-27 13:56:48[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78756429 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:196) userList====================== [User [loginCode=test06193, password=456789, password2=456789, userName=test06193, sex=男, birthday=null, cardType=1, cardTypeName=身份证, idCard=123456789, country=China, mobile=123456, email=123@qq.com, userAddress=123456, postCode=123456, createTime=Mon Jun 19 17:44:19 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=2, userTypeName=普通消费会员, isStart=1, lastUpdateTime=null, lastLoginTime=Mon Jun 19 17:44:19 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=null, bankPicPath=null], User [loginCode=test0619, password=123456, password2=123456, userName=test0619, sex=男, birthday=Wed Jun 07 00:00:00 CST 2017, cardType=1, cardTypeName=身份证, idCard=123456, country=中国, mobile=123456, email=123@qq.com, userAddress=1234567984564, postCode=123456, createTime=Mon Jun 19 16:54:01 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=1, userTypeName=注册会员, isStart=1, lastUpdateTime=null, lastLoginTime=Mon Jun 19 16:54:01 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=null, bankPicPath=null]]
+- (78756430 ms) - 2017-6-27 13:56:48[DEBUG](UserController.java:207) userList====================== 2
+- (78756430 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name '/backend/userlist'; URL [/WEB-INF/pages//backend/userlist.jsp]] in DispatcherServlet with name 'spring'
+- (78756431 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (78756431 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name '/backend/userlist'
+- (78756431 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'page' of type [org.slsale.common.PageSupport] to request in view with name '/backend/userlist'
+- (78756431 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'roleList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (78756431 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'cardTypeList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:380) Removed model object 's_loginCode' from request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:380) Removed model object 's_referCode' from request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:380) Removed model object 's_roleId' from request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:380) Removed model object 's_isStart' from request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (78756432 ms) - 2017-6-27 13:56:48[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (78756433 ms) - 2017-6-27 13:56:48[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages//backend/userlist.jsp] in InternalResourceView '/backend/userlist'
+- (78756440 ms) - 2017-6-27 13:56:48[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78756603 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/localjs/userlist.js]
+- (78756603 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/localjs/userlist.js
+- (78756604 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/localjs/userlist.js]
+- (78756604 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/localjs/userlist.js] are [/statics/**]
+- (78756604 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/localjs/userlist.js] are {}
+- (78756604 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/localjs/userlist.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78756604 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/localjs/userlist.js] is: -1
+- (78756605 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [localjs/userlist.js] against base location: ServletContext resource [/statics/]
+- (78756606 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/localjs/userlist.js]
+- (78756606 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'application/javascript' for ServletContext resource [/statics/localjs/userlist.js]
+- (78756610 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78756610 ms) - 2017-6-27 13:56:48[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78756679 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/img/opa-icons-color32.png]
+- (78756679 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/img/glyphicons-halflings-white.png]
+- (78756679 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/img/opa-icons-color32.png
+- (78756679 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/img/glyphicons-halflings-white.png
+- (78756680 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/img/opa-icons-color32.png]
+- (78756680 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/img/glyphicons-halflings-white.png]
+- (78756680 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/img/glyphicons-halflings-white.png] are [/statics/**]
+- (78756680 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/img/glyphicons-halflings-white.png] are {}
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/img/glyphicons-halflings-white.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78756680 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/img/opa-icons-color32.png] are [/statics/**]
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/img/glyphicons-halflings-white.png] is: -1
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/img/opa-icons-color32.png] are {}
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/img/opa-icons-color32.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [img/glyphicons-halflings-white.png] against base location: ServletContext resource [/statics/]
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/img/opa-icons-color32.png] is: -1
+- (78756681 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/img/glyphicons-halflings-white.png]
+- (78756682 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [img/opa-icons-color32.png] against base location: ServletContext resource [/statics/]
+- (78756682 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/png' for ServletContext resource [/statics/img/glyphicons-halflings-white.png]
+- (78756682 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/img/opa-icons-color32.png]
+- (78756682 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/png' for ServletContext resource [/statics/img/opa-icons-color32.png]
+- (78756682 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78756683 ms) - 2017-6-27 13:56:48[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78756689 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78756690 ms) - 2017-6-27 13:56:48[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78756797 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/img/sprite.png]
+- (78756797 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/img/sprite.png
+- (78756798 ms) - 2017-6-27 13:56:48[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/img/sprite.png]
+- (78756798 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/img/sprite.png] are [/statics/**]
+- (78756798 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/img/sprite.png] are {}
+- (78756799 ms) - 2017-6-27 13:56:48[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/img/sprite.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78756799 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/img/sprite.png] is: -1
+- (78756799 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [img/sprite.png] against base location: ServletContext resource [/statics/]
+- (78756799 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/img/sprite.png]
+- (78756799 ms) - 2017-6-27 13:56:48[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/png' for ServletContext resource [/statics/img/sprite.png]
+- (78756803 ms) - 2017-6-27 13:56:48[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78756803 ms) - 2017-6-27 13:56:48[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78758600 ms) - 2017-6-27 13:56:50[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/getuser.html]
+- (78758601 ms) - 2017-6-27 13:56:50[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/getuser.html
+- (78758601 ms) - 2017-6-27 13:56:50[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.getUser(java.lang.String)]
+- (78758601 ms) - 2017-6-27 13:56:50[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78758602 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78758602 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d53ba] was not registered for synchronization because synchronization is not active
+- (78758602 ms) - 2017-6-27 13:56:50[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78758603 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78758603 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78758603 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where id = ? 
+- (78758604 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 85(Integer)
+- (78758605 ms) - 2017-6-27 13:56:50[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d53ba]
+- (78758605 ms) - 2017-6-27 13:56:50[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78758606 ms) - 2017-6-27 13:56:50[DEBUG](UserController.java:592) cjson========>{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":2,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}
+- (78758607 ms) - 2017-6-27 13:56:50[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":2,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78758607 ms) - 2017-6-27 13:56:50[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78758607 ms) - 2017-6-27 13:56:50[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78759840 ms) - 2017-6-27 13:56:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/loadUserTypeList.html]
+- (78759842 ms) - 2017-6-27 13:56:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/loadUserTypeList.html
+- (78759842 ms) - 2017-6-27 13:56:51[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.loadUserTypeList(java.lang.String)]
+- (78759842 ms) - 2017-6-27 13:56:51[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78759843 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78759843 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16faedb] was not registered for synchronization because synchronization is not active
+- (78759844 ms) - 2017-6-27 13:56:51[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78759844 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78759845 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78759845 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78759845 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: USER_TYPE(String)
+- (78759846 ms) - 2017-6-27 13:56:51[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16faedb]
+- (78759846 ms) - 2017-6-27 13:56:51[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78759847 ms) - 2017-6-27 13:56:51[DEBUG](UserController.java:246) cjson==========>[{"id":5,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":1,"valueName":"注册会员"},{"id":6,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":2,"valueName":"普通消费会员"},{"id":7,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":3,"valueName":"VIP会员"},{"id":8,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":4,"valueName":"加盟店"}]
+- (78759848 ms) - 2017-6-27 13:56:51[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [[{"id":5,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":1,"valueName":"注册会员"},{"id":6,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":2,"valueName":"普通消费会员"},{"id":7,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":3,"valueName":"VIP会员"},{"id":8,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":4,"valueName":"加盟店"}]] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78759848 ms) - 2017-6-27 13:56:51[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78759848 ms) - 2017-6-27 13:56:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78760000 ms) - 2017-6-27 13:56:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/medire/skin/datePicker.gif]
+- (78760001 ms) - 2017-6-27 13:56:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/medire/skin/datePicker.gif
+- (78760001 ms) - 2017-6-27 13:56:51[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/medire/skin/datePicker.gif]
+- (78760001 ms) - 2017-6-27 13:56:51[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/medire/skin/datePicker.gif] are [/statics/**]
+- (78760001 ms) - 2017-6-27 13:56:51[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/medire/skin/datePicker.gif] are {}
+- (78760002 ms) - 2017-6-27 13:56:51[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/medire/skin/datePicker.gif] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78760002 ms) - 2017-6-27 13:56:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/medire/skin/datePicker.gif] is: -1
+- (78760002 ms) - 2017-6-27 13:56:51[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [medire/skin/datePicker.gif] against base location: ServletContext resource [/statics/]
+- (78760002 ms) - 2017-6-27 13:56:51[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/medire/skin/datePicker.gif]
+- (78760002 ms) - 2017-6-27 13:56:51[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/gif' for ServletContext resource [/statics/medire/skin/datePicker.gif]
+- (78760003 ms) - 2017-6-27 13:56:51[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78760003 ms) - 2017-6-27 13:56:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78770244 ms) - 2017-6-27 13:57:01[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/upload.html]
+- (78770245 ms) - 2017-6-27 13:57:01[DEBUG](CommonsFileUploadSupport.java:259) Found multipart file [m_fileInputID] of size 34855 bytes with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000034.tmp]
+- (78770246 ms) - 2017-6-27 13:57:01[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/upload.html
+- (78770246 ms) - 2017-6-27 13:57:01[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.upload(org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)]
+- (78770247 ms) - 2017-6-27 13:57:01[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78770247 ms) - 2017-6-27 13:57:01[DEBUG](UserController.java:336) upload===============
+- (78770248 ms) - 2017-6-27 13:57:01[DEBUG](UserController.java:342) path=============D:\Project\Myeclipse\SLSaleSystem\WebRoot\statics\uploadfiles
+- (78770248 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78770248 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1844cb6] was not registered for synchronization because synchronization is not active
+- (78770248 ms) - 2017-6-27 13:57:01[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78770249 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78770249 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78770249 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78770249 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: PERSONALFILE_SIZE(String)
+- (78770250 ms) - 2017-6-27 13:57:01[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1844cb6]
+- (78770250 ms) - 2017-6-27 13:57:01[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78770250 ms) - 2017-6-27 13:57:01[DEBUG](UserController.java:361) dataDictionaryList============>[DataDictionary [id=82, typeCode=PERSONALFILE_SIZE, typeName=上传个人资料附件大小, valueId=1, valueName=50000]]
+- (78770251 ms) - 2017-6-27 13:57:01[DEBUG](UserController.java:411) fileName=========> 1498543951466IDcard.jpg
+- (78770251 ms) - 2017-6-27 13:57:01[DEBUG](CommonsMultipartFile.java:139) Multipart file 'm_fileInputID' with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000034.tmp]: moved to [D:\Installed\Edit\TOMCAT\bin\1498543951466IDcard.jpg]
+- (78770254 ms) - 2017-6-27 13:57:01[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [/statics/uploadfiles/1498543951466IDcard.jpg] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78770254 ms) - 2017-6-27 13:57:01[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78770254 ms) - 2017-6-27 13:57:01[DEBUG](CommonsFileUploadSupport.java:282) Cleaning up multipart file [m_fileInputID] with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000034.tmp]
+- (78770255 ms) - 2017-6-27 13:57:01[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78770329 ms) - 2017-6-27 13:57:02[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/uploadfiles/1498543951466IDcard.jpg]
+- (78770329 ms) - 2017-6-27 13:57:02[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/uploadfiles/1498543951466IDcard.jpg
+- (78770329 ms) - 2017-6-27 13:57:02[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/uploadfiles/1498543951466IDcard.jpg]
+- (78770329 ms) - 2017-6-27 13:57:02[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/uploadfiles/1498543951466IDcard.jpg] are [/statics/**]
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/uploadfiles/1498543951466IDcard.jpg] are {}
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/uploadfiles/1498543951466IDcard.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/uploadfiles/1498543951466IDcard.jpg] is: -1
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [uploadfiles/1498543951466IDcard.jpg] against base location: ServletContext resource [/statics/]
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](ResourceHttpRequestHandler.java:115) No matching resource found - returning 404
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78770330 ms) - 2017-6-27 13:57:02[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78772084 ms) - 2017-6-27 13:57:03[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/delpic.html]
+- (78772084 ms) - 2017-6-27 13:57:03[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/delpic.html
+- (78772084 ms) - 2017-6-27 13:57:03[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.String org.slsale.controller.user.UserController.delPic(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)]
+- (78772084 ms) - 2017-6-27 13:57:03[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78772085 ms) - 2017-6-27 13:57:03[DEBUG](UserController.java:530) idpicPath.indexOf===============>-1
+- (78772085 ms) - 2017-6-27 13:57:03[DEBUG](UserController.java:531) bankpicPath.indexOf===============>-1
+- (78772085 ms) - 2017-6-27 13:57:03[DEBUG](UserController.java:538) _user.getIdCardPicPath() ============
+- (78772085 ms) - 2017-6-27 13:57:03[DEBUG](UserController.java:539) _user.getBankPicPath() ============
+- (78772086 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78772086 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1435acb] was not registered for synchronization because synchronization is not active
+- (78772086 ms) - 2017-6-27 13:57:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78772086 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78772087 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78772087 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET idCardPicPath = null, bankPicPath = null where id = ? 
+- (78772087 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 85(Integer)
+- (78772088 ms) - 2017-6-27 13:57:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1435acb]
+- (78772088 ms) - 2017-6-27 13:57:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78772088 ms) - 2017-6-27 13:57:03[DEBUG](UserController.java:543) modify---delPic ============
+- (78772089 ms) - 2017-6-27 13:57:03[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78772089 ms) - 2017-6-27 13:57:03[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78772089 ms) - 2017-6-27 13:57:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78781355 ms) - 2017-6-27 13:57:13[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/upload.html]
+- (78781357 ms) - 2017-6-27 13:57:13[DEBUG](CommonsFileUploadSupport.java:259) Found multipart file [m_fileInputID] of size 34855 bytes with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000035.tmp]
+- (78781357 ms) - 2017-6-27 13:57:13[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/upload.html
+- (78781358 ms) - 2017-6-27 13:57:13[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.upload(org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)]
+- (78781358 ms) - 2017-6-27 13:57:13[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78781359 ms) - 2017-6-27 13:57:13[DEBUG](UserController.java:336) upload===============
+- (78781359 ms) - 2017-6-27 13:57:13[DEBUG](UserController.java:342) path=============D:\Project\Myeclipse\SLSaleSystem\WebRoot\statics\uploadfiles
+- (78781359 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78781359 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9601b5] was not registered for synchronization because synchronization is not active
+- (78781360 ms) - 2017-6-27 13:57:13[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78781360 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78781360 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78781361 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78781361 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: PERSONALFILE_SIZE(String)
+- (78781362 ms) - 2017-6-27 13:57:13[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9601b5]
+- (78781362 ms) - 2017-6-27 13:57:13[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78781362 ms) - 2017-6-27 13:57:13[DEBUG](UserController.java:361) dataDictionaryList============>[DataDictionary [id=82, typeCode=PERSONALFILE_SIZE, typeName=上传个人资料附件大小, valueId=1, valueName=50000]]
+- (78781362 ms) - 2017-6-27 13:57:13[DEBUG](UserController.java:411) fileName=========> 1498543144591IDcard.jpg
+- (78781363 ms) - 2017-6-27 13:57:13[DEBUG](CommonsMultipartFile.java:139) Multipart file 'm_fileInputID' with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000035.tmp]: moved to [D:\Installed\Edit\TOMCAT\bin\1498543144591IDcard.jpg]
+- (78781364 ms) - 2017-6-27 13:57:13[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [/statics/uploadfiles/1498543144591IDcard.jpg] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78781365 ms) - 2017-6-27 13:57:13[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78781365 ms) - 2017-6-27 13:57:13[DEBUG](CommonsFileUploadSupport.java:282) Cleaning up multipart file [m_fileInputID] with original filename [190325.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000035.tmp]
+- (78781365 ms) - 2017-6-27 13:57:13[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78781444 ms) - 2017-6-27 13:57:13[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/uploadfiles/1498543144591IDcard.jpg]
+- (78781444 ms) - 2017-6-27 13:57:13[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/uploadfiles/1498543144591IDcard.jpg
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/uploadfiles/1498543144591IDcard.jpg]
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/uploadfiles/1498543144591IDcard.jpg] are [/statics/**]
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/uploadfiles/1498543144591IDcard.jpg] are {}
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/uploadfiles/1498543144591IDcard.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/uploadfiles/1498543144591IDcard.jpg] is: -1
+- (78781445 ms) - 2017-6-27 13:57:13[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [uploadfiles/1498543144591IDcard.jpg] against base location: ServletContext resource [/statics/]
+- (78781446 ms) - 2017-6-27 13:57:13[DEBUG](ResourceHttpRequestHandler.java:115) No matching resource found - returning 404
+- (78781446 ms) - 2017-6-27 13:57:13[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78781446 ms) - 2017-6-27 13:57:13[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78784797 ms) - 2017-6-27 13:57:16[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/delpic.html]
+- (78784797 ms) - 2017-6-27 13:57:16[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/delpic.html
+- (78784798 ms) - 2017-6-27 13:57:16[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.String org.slsale.controller.user.UserController.delPic(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)]
+- (78784798 ms) - 2017-6-27 13:57:16[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](UserController.java:530) idpicPath.indexOf===============>-1
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](UserController.java:531) bankpicPath.indexOf===============>-1
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](UserController.java:538) _user.getIdCardPicPath() ============
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](UserController.java:539) _user.getBankPicPath() ============
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78784800 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16eaed9] was not registered for synchronization because synchronization is not active
+- (78784801 ms) - 2017-6-27 13:57:16[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78784801 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78784802 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78784802 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET idCardPicPath = null, bankPicPath = null where id = ? 
+- (78784802 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 85(Integer)
+- (78784803 ms) - 2017-6-27 13:57:16[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16eaed9]
+- (78784803 ms) - 2017-6-27 13:57:16[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78784803 ms) - 2017-6-27 13:57:16[DEBUG](UserController.java:543) modify---delPic ============
+- (78784804 ms) - 2017-6-27 13:57:16[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78784804 ms) - 2017-6-27 13:57:16[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78784804 ms) - 2017-6-27 13:57:16[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78793927 ms) - 2017-6-27 13:57:25[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/upload.html]
+- (78793928 ms) - 2017-6-27 13:57:25[DEBUG](CommonsFileUploadSupport.java:259) Found multipart file [m_fileInputID] of size 10286 bytes with original filename [aa.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000036.tmp]
+- (78793929 ms) - 2017-6-27 13:57:25[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/upload.html
+- (78793930 ms) - 2017-6-27 13:57:25[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.upload(org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)]
+- (78793930 ms) - 2017-6-27 13:57:25[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78793931 ms) - 2017-6-27 13:57:25[DEBUG](UserController.java:336) upload===============
+- (78793931 ms) - 2017-6-27 13:57:25[DEBUG](UserController.java:342) path=============D:\Project\Myeclipse\SLSaleSystem\WebRoot\statics\uploadfiles
+- (78793931 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78793931 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@820067] was not registered for synchronization because synchronization is not active
+- (78793932 ms) - 2017-6-27 13:57:25[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78793932 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78793933 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78793933 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78793933 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: PERSONALFILE_SIZE(String)
+- (78793934 ms) - 2017-6-27 13:57:25[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@820067]
+- (78793934 ms) - 2017-6-27 13:57:25[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78793934 ms) - 2017-6-27 13:57:25[DEBUG](UserController.java:361) dataDictionaryList============>[DataDictionary [id=82, typeCode=PERSONALFILE_SIZE, typeName=上传个人资料附件大小, valueId=1, valueName=50000]]
+- (78793935 ms) - 2017-6-27 13:57:25[DEBUG](UserController.java:411) fileName=========> 1498543504386IDcard.jpg
+- (78793936 ms) - 2017-6-27 13:57:25[DEBUG](CommonsMultipartFile.java:139) Multipart file 'm_fileInputID' with original filename [aa.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000036.tmp]: moved to [D:\Installed\Edit\TOMCAT\bin\1498543504386IDcard.jpg]
+- (78793936 ms) - 2017-6-27 13:57:25[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [/statics/uploadfiles/1498543504386IDcard.jpg] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78793936 ms) - 2017-6-27 13:57:25[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78793936 ms) - 2017-6-27 13:57:25[DEBUG](CommonsFileUploadSupport.java:282) Cleaning up multipart file [m_fileInputID] with original filename [aa.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000036.tmp]
+- (78793936 ms) - 2017-6-27 13:57:25[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78794020 ms) - 2017-6-27 13:57:25[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (78794021 ms) - 2017-6-27 13:57:25[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/uploadfiles/1498543504386IDcard.jpg
+- (78794021 ms) - 2017-6-27 13:57:25[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/uploadfiles/1498543504386IDcard.jpg] are [/statics/**]
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/uploadfiles/1498543504386IDcard.jpg] are {}
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/uploadfiles/1498543504386IDcard.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/uploadfiles/1498543504386IDcard.jpg] is: -1
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [uploadfiles/1498543504386IDcard.jpg] against base location: ServletContext resource [/statics/]
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](ResourceHttpRequestHandler.java:115) No matching resource found - returning 404
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78794022 ms) - 2017-6-27 13:57:25[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78804699 ms) - 2017-6-27 13:57:36[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/modifyuser.html]
+- (78804703 ms) - 2017-6-27 13:57:36[DEBUG](CommonsFileUploadSupport.java:259) Found multipart file [m_fileInputID] of size 10286 bytes with original filename [aa.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000061.tmp]
+- (78804703 ms) - 2017-6-27 13:57:36[DEBUG](CommonsFileUploadSupport.java:259) Found multipart file [m_fileInputBank] of size 0 bytes with original filename [], stored in memory
+- (78804704 ms) - 2017-6-27 13:57:36[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/modifyuser.html
+- (78804704 ms) - 2017-6-27 13:57:36[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.modifyUser(javax.servlet.http.HttpSession,org.slsale.pojo.User)]
+- (78804704 ms) - 2017-6-27 13:57:36[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78804709 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78804710 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18befbb] was not registered for synchronization because synchronization is not active
+- (78804711 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78804712 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78804712 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78804713 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET loginCode= ?, userName= ?, sex= ?, birthday= ?, cardType= ?, cardTypeName = ?, idCard= ?, country = ?, mobile = ?, email = ?, userAddress = ?, postCode = ?, createTime = ?, referCode = ?, roleId = ?, roleName = ?, userType = ?, userTypeName = ?, isStart = ?, lastUpdateTime = ?, bankName = ?, accountHolder = ?, bankAccount = ?, idCardPicPath = ?, bankPicPath = ? where id=? 
+- (78804714 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: test0619(String), test0619(String), 男(String), 2017-06-07 00:00:00.0(Timestamp), 1(String), 身份证(String), 123456(String), 中国(String), 123456(String), 123@qq.com(String), 1234567984564(String), 123456(String), 2017-06-19 00:00:00.0(Timestamp), admin(String), 1(Integer), 会员(String), 1(String), 注册会员(String), 1(Integer), 2017-06-27 13:57:36.423(Timestamp), 123456(String), 123456(String), 123456(String), /statics/uploadfiles/1498543504386IDcard.jpg(String), (String), 85(Integer)
+- (78804714 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18befbb]
+- (78804715 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78804715 ms) - 2017-6-27 13:57:36[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/backend/userlist.html'; URL [/backend/userlist.html]] in DispatcherServlet with name 'spring'
+- (78804716 ms) - 2017-6-27 13:57:36[DEBUG](CommonsFileUploadSupport.java:282) Cleaning up multipart file [m_fileInputID] with original filename [aa.jpg], stored at [D:\Installed\Edit\TOMCAT\work\Catalina\localhost\_\upload_3bd8f0da_15ce373650c__8000_00000061.tmp]
+- (78804716 ms) - 2017-6-27 13:57:36[DEBUG](CommonsFileUploadSupport.java:282) Cleaning up multipart file [m_fileInputBank] with original filename [], stored in memory
+- (78804716 ms) - 2017-6-27 13:57:36[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78804733 ms) - 2017-6-27 13:57:36[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (78804734 ms) - 2017-6-27 13:57:36[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (78804735 ms) - 2017-6-27 13:57:36[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (78804735 ms) - 2017-6-27 13:57:36[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78804735 ms) - 2017-6-27 13:57:36[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (78804736 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78804736 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1710341] was not registered for synchronization because synchronization is not active
+- (78804737 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78804737 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78804738 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78804739 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_role 
+- (78804740 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (78804741 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1710341]
+- (78804742 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78804742 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78804742 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ce6b1c] was not registered for synchronization because synchronization is not active
+- (78804743 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78804743 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78804744 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78804744 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (78804745 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: CARD_TYPE(String)
+- (78804746 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ce6b1c]
+- (78804747 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78804747 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:134) cardTypeList.size()===================>>>>>>>>>4
+- (78804747 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:162) currentPage  >>>>>>>>>>>>>>>>>>>   null
+- (78804747 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78804747 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca45bd] was not registered for synchronization because synchronization is not active
+- (78804748 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78804748 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78804749 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78804749 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user 
+- (78804749 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (78804750 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca45bd]
+- (78804750 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78804750 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:171) page.getTotalCount()====================== 14
+- (78804750 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:183) pageSupport.getPageCount() >>>>>>>>>>>>>>>> 7
+- (78804751 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:184) pageSupport.getTotalCount() >>>>>>>>>>>>>>>> 14
+- (78804751 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:190) user.getPageSize()====================== 2
+- (78804751 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:191) user.getStarNum()====================== 0
+- (78804751 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78804751 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f13835] was not registered for synchronization because synchronization is not active
+- (78804752 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78804752 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78804753 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78804753 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user order by createTime desc limit ? , ? 
+- (78804753 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 0(Integer), 2(Integer)
+- (78804756 ms) - 2017-6-27 13:57:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f13835]
+- (78804756 ms) - 2017-6-27 13:57:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78804757 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:196) userList====================== [User [loginCode=test06193, password=456789, password2=456789, userName=test06193, sex=男, birthday=null, cardType=1, cardTypeName=身份证, idCard=123456789, country=China, mobile=123456, email=123@qq.com, userAddress=123456, postCode=123456, createTime=Mon Jun 19 17:44:19 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=2, userTypeName=普通消费会员, isStart=1, lastUpdateTime=null, lastLoginTime=Mon Jun 19 17:44:19 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=null, bankPicPath=null], User [loginCode=test0619, password=123456, password2=123456, userName=test0619, sex=男, birthday=Wed Jun 07 00:00:00 CST 2017, cardType=1, cardTypeName=身份证, idCard=123456, country=中国, mobile=123456, email=123@qq.com, userAddress=1234567984564, postCode=123456, createTime=Mon Jun 19 00:00:00 CST 2017, referId=2, referCode=admin, roleId=1, roleName=会员, userType=1, userTypeName=注册会员, isStart=1, lastUpdateTime=Tue Jun 27 13:57:36 CST 2017, lastLoginTime=Mon Jun 19 16:54:01 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=/statics/uploadfiles/1498543504386IDcard.jpg, bankPicPath=]]
+- (78804757 ms) - 2017-6-27 13:57:36[DEBUG](UserController.java:207) userList====================== 2
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name '/backend/userlist'; URL [/WEB-INF/pages//backend/userlist.jsp]] in DispatcherServlet with name 'spring'
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name '/backend/userlist'
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'page' of type [org.slsale.common.PageSupport] to request in view with name '/backend/userlist'
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'roleList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (78804758 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'cardTypeList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:380) Removed model object 's_loginCode' from request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:380) Removed model object 's_referCode' from request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:380) Removed model object 's_roleId' from request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:380) Removed model object 's_isStart' from request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (78804759 ms) - 2017-6-27 13:57:36[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (78804760 ms) - 2017-6-27 13:57:36[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages//backend/userlist.jsp] in InternalResourceView '/backend/userlist'
+- (78804768 ms) - 2017-6-27 13:57:36[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78807094 ms) - 2017-6-27 13:57:38[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/getuser.html]
+- (78807095 ms) - 2017-6-27 13:57:38[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/getuser.html
+- (78807095 ms) - 2017-6-27 13:57:38[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.getUser(java.lang.String)]
+- (78807095 ms) - 2017-6-27 13:57:38[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (78807096 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (78807096 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d809f0] was not registered for synchronization because synchronization is not active
+- (78807096 ms) - 2017-6-27 13:57:38[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (78807096 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (78807097 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (78807097 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where id = ? 
+- (78807097 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 85(Integer)
+- (78807099 ms) - 2017-6-27 13:57:38[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d809f0]
+- (78807099 ms) - 2017-6-27 13:57:38[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (78807100 ms) - 2017-6-27 13:57:38[DEBUG](UserController.java:592) cjson========>{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"/statics/uploadfiles/1498543504386IDcard.jpg","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"2017-06-27","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":1,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}
+- (78807100 ms) - 2017-6-27 13:57:38[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"/statics/uploadfiles/1498543504386IDcard.jpg","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"2017-06-27","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":1,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (78807101 ms) - 2017-6-27 13:57:38[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78807101 ms) - 2017-6-27 13:57:38[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78807115 ms) - 2017-6-27 13:57:38[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (78807115 ms) - 2017-6-27 13:57:38[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/uploadfiles/1498543504386IDcard.jpg
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/uploadfiles/1498543504386IDcard.jpg] are [/statics/**]
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/uploadfiles/1498543504386IDcard.jpg] are {}
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/uploadfiles/1498543504386IDcard.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/uploadfiles/1498543504386IDcard.jpg] is: -1
+- (78807116 ms) - 2017-6-27 13:57:38[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [uploadfiles/1498543504386IDcard.jpg] against base location: ServletContext resource [/statics/]
+- (78807117 ms) - 2017-6-27 13:57:38[DEBUG](ResourceHttpRequestHandler.java:115) No matching resource found - returning 404
+- (78807117 ms) - 2017-6-27 13:57:38[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (78807117 ms) - 2017-6-27 13:57:38[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78824135 ms) - 2017-6-27 13:57:55[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/rolelist.html]
+- (78824135 ms) - 2017-6-27 13:57:55[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/rolelist.html
+- (78824136 ms) - 2017-6-27 13:57:55[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/backend/rolelist.html]
+- (78824136 ms) - 2017-6-27 13:57:55[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/backend/rolelist.html] in DispatcherServlet with name 'spring'
+- (78824136 ms) - 2017-6-27 13:57:55[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (78833565 ms) - 2017-6-27 13:58:05[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/member/registmember.html]
+- (78833565 ms) - 2017-6-27 13:58:05[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /member/registmember.html
+- (78833566 ms) - 2017-6-27 13:58:05[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/member/registmember.html]
+- (78833567 ms) - 2017-6-27 13:58:05[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/member/registmember.html] in DispatcherServlet with name 'spring'
+- (78833567 ms) - 2017-6-27 13:58:05[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85420108 ms) - 2017-6-27 15:47:51[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (85420108 ms) - 2017-6-27 15:47:51[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (85420108 ms) - 2017-6-27 15:47:51[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (85420108 ms) - 2017-6-27 15:47:51[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (85420111 ms) - 2017-6-27 15:47:51[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (85420111 ms) - 2017-6-27 15:47:51[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/'; URL [/]] in DispatcherServlet with name 'spring'
+- (85420111 ms) - 2017-6-27 15:47:51[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85423153 ms) - 2017-6-27 15:47:54[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/img/favicon.ico]
+- (85423153 ms) - 2017-6-27 15:47:54[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/img/favicon.ico
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/img/favicon.ico]
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/img/favicon.ico] are [/statics/**]
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/img/favicon.ico] are {}
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/img/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/img/favicon.ico] is: -1
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [img/favicon.ico] against base location: ServletContext resource [/statics/]
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](ResourceHttpRequestHandler.java:170) Found matching resource: ServletContext resource [/statics/img/favicon.ico]
+- (85423156 ms) - 2017-6-27 15:47:54[DEBUG](ResourceHttpRequestHandler.java:124) Determined media type 'image/x-icon' for ServletContext resource [/statics/img/favicon.ico]
+- (85423158 ms) - 2017-6-27 15:47:54[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (85423158 ms) - 2017-6-27 15:47:54[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85431369 ms) - 2017-6-27 15:48:03[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/login.html]
+- (85431369 ms) - 2017-6-27 15:48:03[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /login.html
+- (85431369 ms) - 2017-6-27 15:48:03[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.LoginController.login(javax.servlet.http.HttpSession,java.lang.String)]
+- (85431369 ms) - 2017-6-27 15:48:03[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (85431369 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85431371 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f2c7e5] was not registered for synchronization because synchronization is not active
+- (85431371 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85431371 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85431371 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85431371 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode = ? 
+- (85431374 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String)
+- (85431632 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f2c7e5]
+- (85431632 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85431632 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85431632 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@178b27e] was not registered for synchronization because synchronization is not active
+- (85431632 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where loginCode = ? and password = ? 
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String), 123456(String)
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@178b27e]
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85431634 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b449c7] was not registered for synchronization because synchronization is not active
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET lastLoginTime = ? where id=? 
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 2017-06-27 15:48:03.348(Timestamp), 2(Integer)
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b449c7]
+- (85431637 ms) - 2017-6-27 15:48:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85431639 ms) - 2017-6-27 15:48:03[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (85431639 ms) - 2017-6-27 15:48:03[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (85431639 ms) - 2017-6-27 15:48:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85431879 ms) - 2017-6-27 15:48:03[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (85431879 ms) - 2017-6-27 15:48:03[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (85431879 ms) - 2017-6-27 15:48:03[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (85431879 ms) - 2017-6-27 15:48:03[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (85431879 ms) - 2017-6-27 15:48:03[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (85431882 ms) - 2017-6-27 15:48:03[DEBUG](LoginController.java:56) main==============
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](LoginController.java:88) menuList from reids ===========>[{"mainMenu":{"creationTime":null,"funcUrl":"","functionCode":"backendmanage","functionName":"后台管理","id":1,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/userlist.html","functionCode":"userlist","functionName":"用户管理","id":7,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/rolelist.html","functionCode":"rolelist","functionName":"角色管理","id":8,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/authoritymanage.html","functionCode":"authoritymanage","functionName":"权限管理","id":9,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodsinfolist.html","functionCode":"goodsinfolist","functionName":"商品管理","id":10,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodspacklist.html","functionCode":"goodspacklist","functionName":"商品套餐管理","id":11,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/dicmanage.html","functionCode":"datadictionary","functionName":"数据字典","id":12,"parentId":1,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"membermanage","functionName":"会员管理","id":2,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/registmember.html","functionCode":"registmember","functionName":"注册新会员","id":13,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/memberlist.html","functionCode":"memberlist","functionName":"新会员管理","id":14,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalinfo.html","functionCode":"modifypersonalinfo","functionName":"修改本人资料","id":15,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalpwd.html","functionCode":"modifypersonalpwd","functionName":"修改本人密码","id":16,"parentId":2,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"ebank","functionName":"电子银行","id":3,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"shoppingmanage","functionName":"购物管理","id":4,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"infosearch","functionName":"信息查询","id":5,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"informanage","functionName":"信息管理","id":6,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/affiche.html","functionCode":"affiche","functionName":"公告管理","id":17,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/information.html","functionCode":"information","functionName":"资讯管理","id":18,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/downloadcenter.html","functionCode":"download","functionName":"下载中心","id":19,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/messagelist.html","functionCode":"messagelist","functionName":"留言管理","id":20,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/mymessage.html","functionCode":"mymessage","functionName":"我的留言","id":21,"parentId":6,"roleId":0}]}]
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'main'; URL [/WEB-INF/pages/main.jsp]] in DispatcherServlet with name 'spring'
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name 'main'
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name 'main'
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'main'
+- (85431884 ms) - 2017-6-27 15:48:03[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/main.jsp] in InternalResourceView 'main'
+- (85431887 ms) - 2017-6-27 15:48:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85448175 ms) - 2017-6-27 15:48:19[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/logout.html]
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /logout.html
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.String org.slsale.controller.user.LoginController.logout(javax.servlet.http.HttpSession)]
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/logout.html] is: -1
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'spring'
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+- (85448177 ms) - 2017-6-27 15:48:19[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85454678 ms) - 2017-6-27 15:48:26[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/login.html]
+- (85454678 ms) - 2017-6-27 15:48:26[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /login.html
+- (85454678 ms) - 2017-6-27 15:48:26[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.LoginController.login(javax.servlet.http.HttpSession,java.lang.String)]
+- (85454678 ms) - 2017-6-27 15:48:26[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (85454678 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@188d559] was not registered for synchronization because synchronization is not active
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode = ? 
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String)
+- (85454680 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@188d559]
+- (85454683 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85454683 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85454683 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@95520d] was not registered for synchronization because synchronization is not active
+- (85454683 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85454684 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85454684 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85454684 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where loginCode = ? and password = ? 
+- (85454684 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: admin(String), 123456(String)
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@95520d]
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6916ba] was not registered for synchronization because synchronization is not active
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85454686 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: update au_user SET lastLoginTime = ? where id=? 
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 2017-06-27 15:48:26.4(Timestamp), 2(Integer)
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6916ba]
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [success] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (85454689 ms) - 2017-6-27 15:48:26[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85454707 ms) - 2017-6-27 15:48:26[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/main.html]
+- (85454708 ms) - 2017-6-27 15:48:26[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /main.html
+- (85454708 ms) - 2017-6-27 15:48:26[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.LoginController.main(javax.servlet.http.HttpSession)]
+- (85454708 ms) - 2017-6-27 15:48:26[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'loginController'
+- (85454708 ms) - 2017-6-27 15:48:26[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/main.html] is: -1
+- (85454709 ms) - 2017-6-27 15:48:26[DEBUG](LoginController.java:56) main==============
+- (85454710 ms) - 2017-6-27 15:48:26[DEBUG](LoginController.java:88) menuList from reids ===========>[{"mainMenu":{"creationTime":null,"funcUrl":"","functionCode":"backendmanage","functionName":"后台管理","id":1,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/userlist.html","functionCode":"userlist","functionName":"用户管理","id":7,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/rolelist.html","functionCode":"rolelist","functionName":"角色管理","id":8,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/authoritymanage.html","functionCode":"authoritymanage","functionName":"权限管理","id":9,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodsinfolist.html","functionCode":"goodsinfolist","functionName":"商品管理","id":10,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/goodspacklist.html","functionCode":"goodspacklist","functionName":"商品套餐管理","id":11,"parentId":1,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/backend/dicmanage.html","functionCode":"datadictionary","functionName":"数据字典","id":12,"parentId":1,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"membermanage","functionName":"会员管理","id":2,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/registmember.html","functionCode":"registmember","functionName":"注册新会员","id":13,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/memberlist.html","functionCode":"memberlist","functionName":"新会员管理","id":14,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalinfo.html","functionCode":"modifypersonalinfo","functionName":"修改本人资料","id":15,"parentId":2,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/member/modifypersonalpwd.html","functionCode":"modifypersonalpwd","functionName":"修改本人密码","id":16,"parentId":2,"roleId":0}]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"ebank","functionName":"电子银行","id":3,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"shoppingmanage","functionName":"购物管理","id":4,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"infosearch","functionName":"信息查询","id":5,"parentId":0,"roleId":1},"subMenu":[]},{"mainMenu":{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"","functionCode":"informanage","functionName":"信息管理","id":6,"parentId":0,"roleId":1},"subMenu":[{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/affiche.html","functionCode":"affiche","functionName":"公告管理","id":17,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/information.html","functionCode":"information","functionName":"资讯管理","id":18,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/informanage/downloadcenter.html","functionCode":"download","functionName":"下载中心","id":19,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/messagelist.html","functionCode":"messagelist","functionName":"留言管理","id":20,"parentId":6,"roleId":0},{"creationTime":{"date":4,"day":5,"hours":15,"minutes":3,"month":3,"seconds":24,"time":1396595004000,"timezoneOffset":-480,"year":114},"funcUrl":"/message/mymessage.html","functionCode":"mymessage","functionName":"我的留言","id":21,"parentId":6,"roleId":0}]}]
+- (85454711 ms) - 2017-6-27 15:48:26[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name 'main'; URL [/WEB-INF/pages/main.jsp]] in DispatcherServlet with name 'spring'
+- (85454711 ms) - 2017-6-27 15:48:26[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name 'main'
+- (85454711 ms) - 2017-6-27 15:48:26[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name 'main'
+- (85454711 ms) - 2017-6-27 15:48:26[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'main'
+- (85454712 ms) - 2017-6-27 15:48:26[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages/main.jsp] in InternalResourceView 'main'
+- (85454713 ms) - 2017-6-27 15:48:26[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85457993 ms) - 2017-6-27 15:48:29[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (85457993 ms) - 2017-6-27 15:48:29[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (85457994 ms) - 2017-6-27 15:48:29[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (85457994 ms) - 2017-6-27 15:48:29[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (85457994 ms) - 2017-6-27 15:48:29[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (85457995 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85457995 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bae4a] was not registered for synchronization because synchronization is not active
+- (85457995 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85457996 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85457996 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85457996 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_role 
+- (85457997 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (85457998 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bae4a]
+- (85457999 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85457999 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85457999 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9f8c61] was not registered for synchronization because synchronization is not active
+- (85457999 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85458000 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85458001 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85458001 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (85458001 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: CARD_TYPE(String)
+- (85458016 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9f8c61]
+- (85458016 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85458017 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:134) cardTypeList.size()===================>>>>>>>>>4
+- (85458017 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:162) currentPage  >>>>>>>>>>>>>>>>>>>   null
+- (85458017 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85458017 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@619323] was not registered for synchronization because synchronization is not active
+- (85458017 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85458018 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85458018 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85458018 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user 
+- (85458018 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (85458019 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@619323]
+- (85458019 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85458019 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:171) page.getTotalCount()====================== 14
+- (85458019 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:183) pageSupport.getPageCount() >>>>>>>>>>>>>>>> 7
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:184) pageSupport.getTotalCount() >>>>>>>>>>>>>>>> 14
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:190) user.getPageSize()====================== 2
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:191) user.getStarNum()====================== 0
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b2ec36] was not registered for synchronization because synchronization is not active
+- (85458020 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85458021 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85458021 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85458021 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user order by createTime desc limit ? , ? 
+- (85458022 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 0(Integer), 2(Integer)
+- (85458023 ms) - 2017-6-27 15:48:29[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b2ec36]
+- (85458023 ms) - 2017-6-27 15:48:29[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85458023 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:196) userList====================== [User [loginCode=test06193, password=456789, password2=456789, userName=test06193, sex=男, birthday=null, cardType=1, cardTypeName=身份证, idCard=123456789, country=China, mobile=123456, email=123@qq.com, userAddress=123456, postCode=123456, createTime=Mon Jun 19 17:44:19 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=2, userTypeName=普通消费会员, isStart=1, lastUpdateTime=null, lastLoginTime=Mon Jun 19 17:44:19 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=null, bankPicPath=null], User [loginCode=test0619, password=123456, password2=123456, userName=test0619, sex=男, birthday=Wed Jun 07 00:00:00 CST 2017, cardType=1, cardTypeName=身份证, idCard=123456, country=中国, mobile=123456, email=123@qq.com, userAddress=1234567984564, postCode=123456, createTime=Mon Jun 19 00:00:00 CST 2017, referId=2, referCode=admin, roleId=1, roleName=会员, userType=1, userTypeName=注册会员, isStart=1, lastUpdateTime=Tue Jun 27 13:57:36 CST 2017, lastLoginTime=Mon Jun 19 16:54:01 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=/statics/uploadfiles/1498543504386IDcard.jpg, bankPicPath=]]
+- (85458024 ms) - 2017-6-27 15:48:29[DEBUG](UserController.java:207) userList====================== 2
+- (85458024 ms) - 2017-6-27 15:48:29[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name '/backend/userlist'; URL [/WEB-INF/pages//backend/userlist.jsp]] in DispatcherServlet with name 'spring'
+- (85458024 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85458024 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name '/backend/userlist'
+- (85458024 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'page' of type [org.slsale.common.PageSupport] to request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'roleList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'cardTypeList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:380) Removed model object 's_loginCode' from request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:380) Removed model object 's_referCode' from request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:380) Removed model object 's_roleId' from request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:380) Removed model object 's_isStart' from request in view with name '/backend/userlist'
+- (85458025 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (85458026 ms) - 2017-6-27 15:48:29[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (85458026 ms) - 2017-6-27 15:48:29[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages//backend/userlist.jsp] in InternalResourceView '/backend/userlist'
+- (85458046 ms) - 2017-6-27 15:48:29[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (85465223 ms) - 2017-6-27 15:48:36[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (85465223 ms) - 2017-6-27 15:48:36[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (85465224 ms) - 2017-6-27 15:48:36[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (85465224 ms) - 2017-6-27 15:48:36[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (85465224 ms) - 2017-6-27 15:48:36[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (85465225 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85465225 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@153e584] was not registered for synchronization because synchronization is not active
+- (85465225 ms) - 2017-6-27 15:48:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85465231 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85465232 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85465232 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_role 
+- (85465234 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (85465236 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@153e584]
+- (85465236 ms) - 2017-6-27 15:48:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85465236 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85465236 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13aa7d] was not registered for synchronization because synchronization is not active
+- (85465237 ms) - 2017-6-27 15:48:36[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85465238 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85465239 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85465239 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (85465239 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: CARD_TYPE(String)
+- (85465240 ms) - 2017-6-27 15:48:36[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13aa7d]
+- (85465240 ms) - 2017-6-27 15:48:36[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85465241 ms) - 2017-6-27 15:48:36[DEBUG](UserController.java:134) cardTypeList.size()===================>>>>>>>>>4
+- (85466188 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:162) currentPage  >>>>>>>>>>>>>>>>>>>   3
+- (85466188 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85466188 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220076] was not registered for synchronization because synchronization is not active
+- (85466188 ms) - 2017-6-27 15:48:37[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85466191 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85466191 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85466191 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user where loginCode like CONCAT('%',?,'%') and referCode like CONCAT('%',?,'%') 
+- (85466191 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: %%(String), %%(String)
+- (85466231 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220076]
+- (85466231 ms) - 2017-6-27 15:48:37[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85466231 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:171) page.getTotalCount()====================== 14
+- (85466231 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:183) pageSupport.getPageCount() >>>>>>>>>>>>>>>> 7
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:184) pageSupport.getTotalCount() >>>>>>>>>>>>>>>> 14
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:190) user.getPageSize()====================== 2
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:191) user.getStarNum()====================== 4
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33a867] was not registered for synchronization because synchronization is not active
+- (85466233 ms) - 2017-6-27 15:48:37[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (85466236 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (85466236 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (85466236 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where loginCode like CONCAT('%',?,'%') and referCode like CONCAT('%',?,'%') order by createTime desc limit ? , ? 
+- (85466236 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: %%(String), %%(String), 4(Integer), 2(Integer)
+- (85466238 ms) - 2017-6-27 15:48:37[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33a867]
+- (85466238 ms) - 2017-6-27 15:48:37[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (85466238 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:196) userList====================== [User [loginCode=test06174, password=123456, password2=123456, userName=test06174, sex=男, birthday=Tue Jun 13 00:00:00 CST 2017, cardType=1, cardTypeName=身份证, idCard=123456, country=jp, mobile=123456, email=123@qq.com, userAddress=jianshu, postCode=123456, createTime=Sun Jun 18 18:02:26 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=1, userTypeName=注册会员, isStart=1, lastUpdateTime=null, lastLoginTime=Sun Jun 18 18:02:26 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=/statics/uploadfiles/1497780399428_IDcard.jpg, bankPicPath=null], User [loginCode=test30617, password=123456, password2=123456, userName=test30617, sex=男, birthday=null, cardType=1, cardTypeName=身份证, idCard=123456, country=中国, mobile=123456, email=123@qq.com, userAddress=123456789456123456789465, postCode=123456, createTime=Sun Jun 18 16:25:51 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=2, userTypeName=普通消费会员, isStart=1, lastUpdateTime=null, lastLoginTime=Sun Jun 18 16:25:51 CST 2017, bankName=123456, accountHolder=null, bankAccount=123456, idCardPicPath=/statics/uploadfiles/1497775197339_IDcard.jpg, bankPicPath=/statics/uploadfiles/1497775211753_bank.jpg]]
+- (85466238 ms) - 2017-6-27 15:48:37[DEBUG](UserController.java:207) userList====================== 2
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name '/backend/userlist'; URL [/WEB-INF/pages//backend/userlist.jsp]] in DispatcherServlet with name 'spring'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'page' of type [org.slsale.common.PageSupport] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'roleList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'cardTypeList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 's_loginCode' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 's_referCode' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 's_roleId' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 's_isStart' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (85466239 ms) - 2017-6-27 15:48:37[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages//backend/userlist.jsp] in InternalResourceView '/backend/userlist'
+- (85466247 ms) - 2017-6-27 15:48:37[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86320809 ms) - 2017-6-27 16:02:52[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/goodspacklist.html]
+- (86320810 ms) - 2017-6-27 16:02:52[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/goodspacklist.html
+- (86320811 ms) - 2017-6-27 16:02:52[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/backend/goodspacklist.html]
+- (86320811 ms) - 2017-6-27 16:02:52[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/backend/goodspacklist.html] in DispatcherServlet with name 'spring'
+- (86320812 ms) - 2017-6-27 16:02:52[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86326738 ms) - 2017-6-27 16:02:58[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/goodsinfolist.html]
+- (86326738 ms) - 2017-6-27 16:02:58[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/goodsinfolist.html
+- (86326739 ms) - 2017-6-27 16:02:58[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/backend/goodsinfolist.html]
+- (86326739 ms) - 2017-6-27 16:02:58[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/backend/goodsinfolist.html] in DispatcherServlet with name 'spring'
+- (86326739 ms) - 2017-6-27 16:02:58[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86331374 ms) - 2017-6-27 16:03:03[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/userlist.html]
+- (86331376 ms) - 2017-6-27 16:03:03[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/userlist.html
+- (86331378 ms) - 2017-6-27 16:03:03[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public org.springframework.web.servlet.ModelAndView org.slsale.controller.user.UserController.userList(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]
+- (86331378 ms) - 2017-6-27 16:03:03[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (86331379 ms) - 2017-6-27 16:03:03[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/backend/userlist.html] is: -1
+- (86331381 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (86331382 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ce9af8] was not registered for synchronization because synchronization is not active
+- (86331383 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (86331384 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (86331388 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (86331389 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_role 
+- (86331390 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (86331392 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ce9af8]
+- (86331393 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (86331393 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (86331393 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3670a8] was not registered for synchronization because synchronization is not active
+- (86331395 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (86331396 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (86331397 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (86331397 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (86331397 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: CARD_TYPE(String)
+- (86331399 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3670a8]
+- (86331399 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (86331399 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:134) cardTypeList.size()===================>>>>>>>>>4
+- (86331399 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:162) currentPage  >>>>>>>>>>>>>>>>>>>   null
+- (86331400 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (86331400 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b15d1f] was not registered for synchronization because synchronization is not active
+- (86331400 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (86331401 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (86331402 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (86331402 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select count(1) from au_user 
+- (86331402 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 
+- (86331403 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b15d1f]
+- (86331403 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (86331403 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:171) page.getTotalCount()====================== 14
+- (86331403 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:183) pageSupport.getPageCount() >>>>>>>>>>>>>>>> 7
+- (86331403 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:184) pageSupport.getTotalCount() >>>>>>>>>>>>>>>> 14
+- (86331404 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:190) user.getPageSize()====================== 2
+- (86331404 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:191) user.getStarNum()====================== 0
+- (86331404 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (86331404 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c66c52] was not registered for synchronization because synchronization is not active
+- (86331404 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (86331405 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (86331405 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (86331405 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user order by createTime desc limit ? , ? 
+- (86331405 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 0(Integer), 2(Integer)
+- (86331407 ms) - 2017-6-27 16:03:03[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c66c52]
+- (86331407 ms) - 2017-6-27 16:03:03[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (86331407 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:196) userList====================== [User [loginCode=test06193, password=456789, password2=456789, userName=test06193, sex=男, birthday=null, cardType=1, cardTypeName=身份证, idCard=123456789, country=China, mobile=123456, email=123@qq.com, userAddress=123456, postCode=123456, createTime=Mon Jun 19 17:44:19 CST 2017, referId=2, referCode=admin, roleId=2, roleName=会员, userType=2, userTypeName=普通消费会员, isStart=1, lastUpdateTime=null, lastLoginTime=Mon Jun 19 17:44:19 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=null, bankPicPath=null], User [loginCode=test0619, password=123456, password2=123456, userName=test0619, sex=男, birthday=Wed Jun 07 00:00:00 CST 2017, cardType=1, cardTypeName=身份证, idCard=123456, country=中国, mobile=123456, email=123@qq.com, userAddress=1234567984564, postCode=123456, createTime=Mon Jun 19 00:00:00 CST 2017, referId=2, referCode=admin, roleId=1, roleName=会员, userType=1, userTypeName=注册会员, isStart=1, lastUpdateTime=Tue Jun 27 13:57:36 CST 2017, lastLoginTime=Mon Jun 19 16:54:01 CST 2017, bankName=123456, accountHolder=123456, bankAccount=123456, idCardPicPath=/statics/uploadfiles/1498543504386IDcard.jpg, bankPicPath=]]
+- (86331407 ms) - 2017-6-27 16:03:03[DEBUG](UserController.java:207) userList====================== 2
+- (86331408 ms) - 2017-6-27 16:03:03[DEBUG](DispatcherServlet.java:1206) Rendering view [org.springframework.web.servlet.view.JstlView: name '/backend/userlist'; URL [/WEB-INF/pages//backend/userlist.jsp]] in DispatcherServlet with name 'spring'
+- (86331408 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'mList' of type [java.lang.String] to request in view with name '/backend/userlist'
+- (86331408 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'user' of type [org.slsale.pojo.User] to request in view with name '/backend/userlist'
+- (86331408 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'page' of type [org.slsale.common.PageSupport] to request in view with name '/backend/userlist'
+- (86331408 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'roleList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'cardTypeList' of type [java.util.ArrayList] to request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:380) Removed model object 's_loginCode' from request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:380) Removed model object 's_referCode' from request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:380) Removed model object 's_roleId' from request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:380) Removed model object 's_isStart' from request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (86331409 ms) - 2017-6-27 16:03:03[DEBUG](AbstractView.java:373) Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/backend/userlist'
+- (86331410 ms) - 2017-6-27 16:03:03[DEBUG](InternalResourceView.java:236) Forwarding to resource [/WEB-INF/pages//backend/userlist.jsp] in InternalResourceView '/backend/userlist'
+- (86331422 ms) - 2017-6-27 16:03:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86333839 ms) - 2017-6-27 16:03:05[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/authoritymanage.html]
+- (86333840 ms) - 2017-6-27 16:03:05[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/authoritymanage.html
+- (86333841 ms) - 2017-6-27 16:03:05[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/backend/authoritymanage.html]
+- (86333841 ms) - 2017-6-27 16:03:05[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/backend/authoritymanage.html] in DispatcherServlet with name 'spring'
+- (86333842 ms) - 2017-6-27 16:03:05[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86339763 ms) - 2017-6-27 16:03:11[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/member/registmember.html]
+- (86339764 ms) - 2017-6-27 16:03:11[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /member/registmember.html
+- (86339765 ms) - 2017-6-27 16:03:11[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/member/registmember.html]
+- (86339766 ms) - 2017-6-27 16:03:11[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/member/registmember.html] in DispatcherServlet with name 'spring'
+- (86339766 ms) - 2017-6-27 16:03:11[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (86367236 ms) - 2017-6-27 16:03:38[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/backend/dicmanage.html]
+- (86367236 ms) - 2017-6-27 16:03:38[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/dicmanage.html
+- (86367237 ms) - 2017-6-27 16:03:38[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/backend/dicmanage.html]
+- (86367237 ms) - 2017-6-27 16:03:38[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/backend/dicmanage.html] in DispatcherServlet with name 'spring'
+- (86367237 ms) - 2017-6-27 16:03:38[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (100792660 ms) - 2017-6-27 20:04:04[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/getuser.html]
+- (100792661 ms) - 2017-6-27 20:04:04[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/getuser.html
+- (100792662 ms) - 2017-6-27 20:04:04[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.getUser(java.lang.String)]
+- (100792662 ms) - 2017-6-27 20:04:04[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (100792664 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (100792665 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a5418f] was not registered for synchronization because synchronization is not active
+- (100792667 ms) - 2017-6-27 20:04:04[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (100792669 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (100792671 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (100792672 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where id = ? 
+- (100792673 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 85(Integer)
+- (100792677 ms) - 2017-6-27 20:04:04[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a5418f]
+- (100792678 ms) - 2017-6-27 20:04:04[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (100792680 ms) - 2017-6-27 20:04:04[DEBUG](UserController.java:592) cjson========>{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"/statics/uploadfiles/1498543504386IDcard.jpg","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"2017-06-27","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":1,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}
+- (100792702 ms) - 2017-6-27 20:04:04[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"2017-06-07","cardType":"1","cardTypeName":"身份证","country":"中国","createTime":"2017-06-19","email":"123@qq.com","id":85,"idCard":"123456","idCardPicPath":"/statics/uploadfiles/1498543504386IDcard.jpg","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"2017-06-27","loginCode":"test0619","mobile":"123456","pageSize":0,"password":"123456","password2":"123456","postCode":"123456","referCode":"admin","referId":2,"roleId":1,"roleName":"会员","sex":"男","startNum":0,"userAddress":"1234567984564","userName":"test0619","userType":"1","userTypeName":"注册会员"}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (100792702 ms) - 2017-6-27 20:04:04[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (100792702 ms) - 2017-6-27 20:04:04[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (100792727 ms) - 2017-6-27 20:04:04[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (100792728 ms) - 2017-6-27 20:04:04[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /statics/uploadfiles/1498543504386IDcard.jpg
+- (100792728 ms) - 2017-6-27 20:04:04[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/statics/uploadfiles/1498543504386IDcard.jpg]
+- (100792729 ms) - 2017-6-27 20:04:04[DEBUG](AbstractUrlHandlerMapping.java:169) Matching patterns for request [/statics/uploadfiles/1498543504386IDcard.jpg] are [/statics/**]
+- (100792729 ms) - 2017-6-27 20:04:04[DEBUG](AbstractUrlHandlerMapping.java:194) URI Template variables for request [/statics/uploadfiles/1498543504386IDcard.jpg] are {}
+- (100792729 ms) - 2017-6-27 20:04:04[DEBUG](AbstractUrlHandlerMapping.java:124) Mapping [/statics/uploadfiles/1498543504386IDcard.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@f796ee] and 1 interceptor
+- (100792729 ms) - 2017-6-27 20:04:04[DEBUG](DispatcherServlet.java:912) Last-Modified value for [/statics/uploadfiles/1498543504386IDcard.jpg] is: -1
+- (100792730 ms) - 2017-6-27 20:04:04[DEBUG](ResourceHttpRequestHandler.java:165) Trying relative path [uploadfiles/1498543504386IDcard.jpg] against base location: ServletContext resource [/statics/]
+- (100792730 ms) - 2017-6-27 20:04:04[DEBUG](ResourceHttpRequestHandler.java:115) No matching resource found - returning 404
+- (100792730 ms) - 2017-6-27 20:04:04[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (100792730 ms) - 2017-6-27 20:04:04[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (100795405 ms) - 2017-6-27 20:04:07[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/getuser.html]
+- (100795405 ms) - 2017-6-27 20:04:07[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/getuser.html
+- (100795406 ms) - 2017-6-27 20:04:07[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.getUser(java.lang.String)]
+- (100795406 ms) - 2017-6-27 20:04:07[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (100795408 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (100795410 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19c3a40] was not registered for synchronization because synchronization is not active
+- (100795410 ms) - 2017-6-27 20:04:07[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (100795411 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (100795411 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (100795412 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from au_user where id = ? 
+- (100795412 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: 87(Integer)
+- (100795413 ms) - 2017-6-27 20:04:07[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19c3a40]
+- (100795414 ms) - 2017-6-27 20:04:07[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (100795415 ms) - 2017-6-27 20:04:07[DEBUG](UserController.java:592) cjson========>{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"","cardType":"1","cardTypeName":"身份证","country":"China","createTime":"2017-06-19","email":"123@qq.com","id":87,"idCard":"123456789","idCardPicPath":"","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"","loginCode":"test06193","mobile":"123456","pageSize":0,"password":"456789","password2":"456789","postCode":"123456","referCode":"admin","referId":2,"roleId":2,"roleName":"会员","sex":"男","startNum":0,"userAddress":"123456","userName":"test06193","userType":"2","userTypeName":"普通消费会员"}
+- (100795415 ms) - 2017-6-27 20:04:07[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [{"accountHolder":"123456","bankAccount":"123456","bankName":"123456","bankPicPath":"","birthday":"","cardType":"1","cardTypeName":"身份证","country":"China","createTime":"2017-06-19","email":"123@qq.com","id":87,"idCard":"123456789","idCardPicPath":"","isStart":1,"lastLoginTime":"2017-06-19","lastUpdateTime":"","loginCode":"test06193","mobile":"123456","pageSize":0,"password":"456789","password2":"456789","postCode":"123456","referCode":"admin","referId":2,"roleId":2,"roleName":"会员","sex":"男","startNum":0,"userAddress":"123456","userName":"test06193","userType":"2","userTypeName":"普通消费会员"}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (100795415 ms) - 2017-6-27 20:04:07[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (100795415 ms) - 2017-6-27 20:04:07[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (100796878 ms) - 2017-6-27 20:04:08[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing POST request for [/backend/loadUserTypeList.html]
+- (100796880 ms) - 2017-6-27 20:04:08[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /backend/loadUserTypeList.html
+- (100796880 ms) - 2017-6-27 20:04:08[DEBUG](AbstractHandlerMethodMapping.java:227) Returning handler method [public java.lang.Object org.slsale.controller.user.UserController.loadUserTypeList(java.lang.String)]
+- (100796880 ms) - 2017-6-27 20:04:08[DEBUG](AbstractBeanFactory.java:246) Returning cached instance of singleton bean 'userController'
+- (100796881 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) Creating a new SqlSession
+- (100796881 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18b5d33] was not registered for synchronization because synchronization is not active
+- (100796882 ms) - 2017-6-27 20:04:08[DEBUG](DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+- (100796882 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) JDBC Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+- (100796883 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) ooo Using Connection [jdbc:mysql://127.0.0.1:3306/slsaledb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL-AB JDBC Driver]
+- (100796883 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) ==>  Preparing: select * from data_dictionary where typeCode = ? order by valueId asc 
+- (100796884 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) ==> Parameters: USER_TYPE(String)
+- (100796885 ms) - 2017-6-27 20:04:08[DEBUG](JakartaCommonsLoggingImpl.java:46) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18b5d33]
+- (100796886 ms) - 2017-6-27 20:04:08[DEBUG](DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+- (100796887 ms) - 2017-6-27 20:04:08[DEBUG](UserController.java:246) cjson==========>[{"id":5,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":1,"valueName":"注册会员"},{"id":6,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":2,"valueName":"普通消费会员"},{"id":7,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":3,"valueName":"VIP会员"},{"id":8,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":4,"valueName":"加盟店"}]
+- (100796887 ms) - 2017-6-27 20:04:08[DEBUG](AbstractMessageConverterMethodProcessor.java:150) Written [[{"id":5,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":1,"valueName":"注册会员"},{"id":6,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":2,"valueName":"普通消费会员"},{"id":7,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":3,"valueName":"VIP会员"},{"id":8,"typeCode":"USER_TYPE","typeName":"用户类型","valueId":4,"valueName":"加盟店"}]] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@f05ca6]
+- (100796888 ms) - 2017-6-27 20:04:08[DEBUG](DispatcherServlet.java:999) Null ModelAndView returned to DispatcherServlet with name 'spring': assuming HandlerAdapter completed request handling
+- (100796888 ms) - 2017-6-27 20:04:08[DEBUG](FrameworkServlet.java:966) Successfully completed request

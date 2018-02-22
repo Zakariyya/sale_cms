@@ -1,0 +1,20 @@
+- (176058792 ms) - 2017-6-28 16:58:30[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/announce]
+- (176058859 ms) - 2017-6-28 16:58:30[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /announce
+- (176058877 ms) - 2017-6-28 16:58:30[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/announce]
+- (176058878 ms) - 2017-6-28 16:58:30[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/announce] in DispatcherServlet with name 'spring'
+- (176058878 ms) - 2017-6-28 16:58:30[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (176062061 ms) - 2017-6-28 16:58:33[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/announce]
+- (176062062 ms) - 2017-6-28 16:58:33[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /announce
+- (176062063 ms) - 2017-6-28 16:58:33[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/announce]
+- (176062064 ms) - 2017-6-28 16:58:33[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/announce] in DispatcherServlet with name 'spring'
+- (176062064 ms) - 2017-6-28 16:58:33[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (176071088 ms) - 2017-6-28 16:58:42[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/announce]
+- (176071088 ms) - 2017-6-28 16:58:42[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /announce
+- (176071090 ms) - 2017-6-28 16:58:42[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/announce]
+- (176071090 ms) - 2017-6-28 16:58:42[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/announce] in DispatcherServlet with name 'spring'
+- (176071090 ms) - 2017-6-28 16:58:42[DEBUG](FrameworkServlet.java:966) Successfully completed request
+- (176092137 ms) - 2017-6-28 16:59:03[DEBUG](DispatcherServlet.java:823) DispatcherServlet with name 'spring' processing GET request for [/announce]
+- (176092137 ms) - 2017-6-28 16:59:03[DEBUG](AbstractHandlerMethodMapping.java:220) Looking up handler method for path /announce
+- (176092138 ms) - 2017-6-28 16:59:03[DEBUG](AbstractHandlerMethodMapping.java:230) Did not find handler method for [/announce]
+- (176092139 ms) - 2017-6-28 16:59:03[ WARN](DispatcherServlet.java:1108) No mapping found for HTTP request with URI [/announce] in DispatcherServlet with name 'spring'
+- (176092139 ms) - 2017-6-28 16:59:03[DEBUG](FrameworkServlet.java:966) Successfully completed request
